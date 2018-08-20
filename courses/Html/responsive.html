@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>HTML Education Template</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="../../css/bootstrap.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="../../css/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    </head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a class="logo" href="../../index.php">
+							<img src="../../img/logo.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Mobile toggle -->
+					<button class="navbar-toggle">
+						<span></span>
+					</button>
+					<!-- /Mobile toggle -->
+				</div>
+
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul class="main-menu nav navbar-nav navbar-right">
+						<li><a href="../../index.php">Home</a></li>
+						<li><a href="../../courses.php">Courses</a></li>
+						<li><a href="../../contact.php">Contact</a></li>
+					</ul>
+				</nav>
+				<!-- /Navigation -->
+
+			</div>
+		</header>
+		<!-- /Header -->
+
+		<!-- Hero-area -->
+		<div class="hero-area section">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(../../img/page-background.jpg)"></div>
+			<!-- /Backgound Image -->
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 text-center">
+						<ul class="hero-area-tree">
+							<li><a href="../../index.php">Home</a></li>
+							<li>Courses</li>
+						</ul>
+						<h1 class="white-text">Courses Page</h1>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- /Hero-area -->
+
+		<!-- Blog -->
+		<div id="blog" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- main blog -->
+					<div id="main" class="col-md-9">
+
+
+						<!-- row -->
+						<div class="row">
+
+							<!-- pagination -->
+							<div class="col-md-12">
+                                <h1>HTML <span class="color_h1">Responsive Web Design</span></h1>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="layout.html">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="computercode_elements.html" style="margin: 200px">Next &#10095;</a>
+</div>
+<hr>
+<img src="../../img/img_responsive_page.jpg" style="width:100%" alt="Responsive">
+<h2>What is Responsive Web Design?</h2>
+<p>Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge,
+a website, to make it look good on all devices (desktops, tablets, and phones):</p>
+
+<p>
+</p>
+<div class="w3-panel w3-note">
+  <p><strong>Note:</strong> A web page should look good on <strong>any device</strong>!</p>
+</div>
+<hr>
+<h2>Setting The Viewport</h2>
+<p>When making responsive web pages, add the following <code class="w3-codespan">&lt;meta&gt;</code> element in all your web pages:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+</div>
+</div>
+
+<p>This will set the viewport of your page, which will give the browser instructions on how 
+to control the page's dimensions and scaling.</p>
+<p>Here is an example of a web page <em>without</em> the viewport meta tag, and the same web page <em>with</em> the viewport meta tag:</p><br/><br/>
+<div class="w3-row" style="text-align:center;">
+  <div class="w3-half w3-margin-bottom" style="float: left">
+    Without the viewport meta tag:<br>
+      <img src="../../img/img_viewport1.png" class="w3-hover-shadow viewport" >
+  </div>
+  <div class="w3-half">
+    With the viewport meta tag:<br>
+    <img src="../../img/img_viewport2.png" class="w3-hover-shadow viewport">
+  </div>  
+</div>
+                                <br/><br/>
+<div class="w3-note w3-panel">
+<p><strong>Tip:</strong> If you are browsing this page with a phone or a tablet, you can click on the two links above to see the difference.</p>
+</div>
+<hr>
+<div style="overflow:auto;text-align:center">
+<!-- MidContent -->
+
+  <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+  <div id="snhb-mid_content-0"></div>
+    
+</div>
+<hr>
+<h2>Responsive Images</h2>
+<p>Responsive images are images that scale nicely to fit any browser size.</p>
+<h3>Using the width Property</h3>
+<p>If the CSS <code class="w3-codespan">width</code> property is set to 100%, the image will be responsive and scale 
+up and down:</p>
+<img src="../../img/img_girl.jpg" style="width:100%;height:auto;">
+
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;img 
+  src=&quot;img_girl.jpg&quot; <strong>style=&quot;width:100%;&quot;</strong>&gt;
+</div>
+</div>
+
+<p>Notice that in the example above, the image can be scaled up to be larger than its original size.
+A better solution, in many cases, will be to use the <code class="w3-codespan">max-width</code> property instead.</p>
+<h3>Using the max-width Property</h3>
+
+<p>If the <code class="w3-codespan">max-width</code> property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size:</p>
+
+<img src="../../img/img_girl.jpg" style="max-width:100%;height:auto;">
+
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;img 
+  src=&quot;img_girl.jpg&quot; style=&quot;<strong>max-width:100%;</strong>height:auto;&quot;&gt;
+</div>
+</div>
+<hr>
+<h3>Show Different Images Depending on Browser Width</h3>
+<p>The HTML <code class="w3-codespan">&lt;picture&gt;</code> element allows you to define different images for 
+different browser window sizes.</p>
+<p>Resize the browser window to see how the image below change depending on the width:</p>
+<picture>
+  <source srcset="../../img/img_smallflower.jpg" media="(max-width: 600px)">
+  <source srcset="../../img/img_flowers.jpg" media="(max-width: 1500px)">
+  <source srcset="flowers.jpg">
+  <img src="img_smallflower.jpg" alt="Flowers">
+</picture>
+
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+  &lt;picture&gt;<br>&nbsp; &lt;source srcset=&quot;img_smallflower.jpg&quot; media=&quot;(max-width: 
+  600px)&quot;&gt;<br>&nbsp; &lt;source srcset=&quot;img_flowers.jpg&quot; media=&quot;(max-width: 
+  1500px)&quot;&gt;<br>&nbsp; &lt;source srcset=&quot;flowers.jpg&quot;&gt;<br>&nbsp; &lt;img src=&quot;img_smallflower.jpg&quot; 
+  alt=&quot;Flowers&quot;&gt;<br>&lt;/picture&gt;</div>
+</div>
+<hr>
+
+<h2>Responsive Text Size</h2>
+<p>The text size can be set with a &quot;vw&quot; unit, which means the &quot;viewport width&quot;.</p>
+<p>That way the text size will follow the size of the browser window:</p>
+
+<div class="w3-light-grey w3-padding w3-round">
+<h1 style="font-size:8vw;">Hello World</h1>
+<p style="font-size:2vw;">Resize the browser window to see how the text size scales.</p>
+</div>
+
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;h1 style="<strong>font-size:10vw</strong>"&gt;Hello World&lt;/h1&gt;
+</div>
+</div>
+
+<div class="w3-note w3-panel">
+<p>Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</p>
+</div>
+<hr>
+
+<h2>Media Queries</h2>
+<p>In addition to resize text and images, it is also common to use media queries 
+in responsive web pages.</p>
+<p>With media queries you can define completely different styles for different browser 
+sizes.</p>
+
+<p>Example: resize the browser window to see that the three div elements below will display 
+horizontally on large screens and stacked vertically on small screens:</p>
+<style>
+.menu {
+  width:20%;
+  float:left;
+}
+.main {
+  width:60%;
+  float:left;
+}
+.right {
+  width:20%;
+  float:left;
+}
+@media (max-width:800px) {
+.menu {
+  width:100%;
+}
+.main {
+  width:100%;
+}
+.right {
+  width:100%;
+}
+}
+</style>
+  <div class="w3-row">
+    <div class="menu">
+      <div class="w3-blue w3-padding">Left Menu<br><br><br></div>
+    </div>
+    <div class="main">
+      <div class="w3-light-gray w3-padding">Main Content<br><br><br></div>
+    </div>
+    <div class="right">
+      <div class="w3-green w3-padding">Right Content<br><br><br></div>
+    </div>
+  </div>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+  &lt;style&gt;<br>.left, .right {<br>&nbsp; float: left;<br>&nbsp; 
+  width: 20%; /* The width is 20%, by default */<br>}<br><br>.main {<br>&nbsp; float: left;<br>&nbsp; width: 60%; /* The width is 60%, by default */<br>}<br><br>/* Use a media query to 
+  add a breakpoint at 800px: */<br>@media screen and (max-width: 800px) {<br>&nbsp; .left, 
+  .main, .right {<br>&nbsp;&nbsp;&nbsp; 
+  width: 100%; /* The width is 100%, when the viewport is 800px or smaller */<br>&nbsp; 
+  }<br>}<br>&lt;/style&gt;
+</div>
+</div>
+
+<div class="w3-note w3-panel">
+<p><strong>Tip:</strong> To learn more about Media Queries and Responsive Web Design, read our <a href="/css/css_rwd_intro.asp">RWD Tutorial</a>.<br></p>
+</div>
+
+<hr>
+<h2>Responsive Web Page - Full Example</h2>
+
+<p>A responsive web page should look good on large desktop screens and small mobile phones.</p>
+
+<div>
+  <div class="w3-col header" style="background-color:#e5e5e5
+;margin-bottom:8px;height:60px;"></div>
+  <div class="w3-row">
+    <div class="w3-col s3" style="background-color:#e5e5e5
+;height:170px;border-right:8px solid white;"></div>
+    <div class="w3-col s6" style="background-color:#e5e5e5
+;height:170px;border-right:8px solid white;"></div>
+    <div class="w3-col s3" style="background-color:#e5e5e5
+;height:170px;"></div>
+  </div>
+  <div class="w3-col footer" style="background-color:#e5e5e5
+;margin-top:8px;height:31px;"></div>
+</div>
+
+
+<p>
+</p>
+<hr>
+
+<h2>Responsive Web Design - Frameworks</h2>
+
+<p>There are many existing CSS Frameworks that offer Responsive Design.</p>
+<p>They are free, and easy to use.</p>
+
+<p>
+A great way to create a responsive design, is to use a 
+responsive 
+style sheet</p>
+
+<div class="w3-container w3-green">
+<p>Resize the page to see the responsiveness!</p> 
+</div>
+
+<div class="w3-row-padding w3-light-grey">
+<div class="w3-third">
+<h2>London</h2>
+<p>London is the capital city of England.</p>
+<p>It is the most populous city in the United Kingdom,
+with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+<div class="w3-third">
+<h2>Paris</h2>
+<p>Paris is the capital of France.</p> 
+<p>The Paris area is one of the largest population centers in Europe,
+with more than 12 million inhabitants.</p>
+</div>
+<div class="w3-third">
+<h2>Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+<p>It is the center of the Greater Tokyo Area,
+and the most populous metropolitan area in the world.</p>
+</div>
+</div>
+
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&lt;meta name=&quot;viewport&quot; 
+ content=&quot;width=device-width, initial-scale=1&quot;&gt;<br>&lt;link rel=&quot;stylesheet&quot; 
+ href=&quot;https://www.w3schools.com/w3css/4/w3.css&quot;&gt;<br>&lt;body&gt;<br><br>&lt;div 
+ class=&quot;w3-container w3-green&quot;&gt;<br>&nbsp; &lt;h1&gt;W3Schools Demo&lt;/h1&gt; <br>&nbsp; 
+ &lt;p&gt;Resize this responsive page!&lt;/p&gt; <br>&lt;/div&gt;<br><br>&lt;div 
+ class=&quot;w3-row-padding&quot;&gt;<br>&nbsp; &lt;div class=&quot;w3-third&quot;&gt;<br>&nbsp;&nbsp;&nbsp; &lt;h2&gt;London&lt;/h2&gt;<br>&nbsp;&nbsp;&nbsp; &lt;p&gt;London is the capital city of England.&lt;/p&gt;<br>&nbsp;&nbsp;&nbsp; &lt;p&gt;It is the most populous city in the United Kingdom,<br>&nbsp;&nbsp;&nbsp; with a 
+ metropolitan area of over 13 million inhabitants.&lt;/p&gt;<br>&nbsp; &lt;/div&gt;<br><br>&nbsp; &lt;div 
+ class=&quot;w3-third&quot;&gt;<br>&nbsp;&nbsp;&nbsp; &lt;h2&gt;Paris&lt;/h2&gt;<br>&nbsp;&nbsp;&nbsp; &lt;p&gt;Paris is 
+ the capital of France.&lt;/p&gt; <br>&nbsp;&nbsp;&nbsp; &lt;p&gt;The Paris area is one of the largest 
+ population centers in Europe,<br>&nbsp;&nbsp;&nbsp; with more than 12 million 
+ inhabitants.&lt;/p&gt;<br>&nbsp; &lt;/div&gt;<br><br>&nbsp; &lt;div class=&quot;w3-third&quot;&gt;<br>&nbsp;&nbsp;&nbsp; 
+ &lt;h2&gt;Tokyo&lt;/h2&gt;<br>&nbsp;&nbsp;&nbsp; &lt;p&gt;Tokyo is the capital of Japan.&lt;/p&gt;<br>&nbsp;&nbsp;&nbsp; &lt;p&gt;It 
+ is the center of the Greater Tokyo Area,<br>&nbsp;&nbsp;&nbsp; and the most populous 
+ metropolitan area in the world.&lt;/p&gt;<br>&nbsp; &lt;/div&gt;<br>&lt;/div&gt;<br><br>&lt;/body&gt;<br>
+ &lt;/html&gt;</div>
+</div>
+<hr>
+<h2>Bootstrap</h2>
+
+<p>Another popular framework is Bootstrap, it uses HTML, CSS and jQuery to make responsive web pages.</p>
+
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;!DOCTYPE html&gt;<br>&lt;html lang=&quot;en&quot;&gt;<br>&lt;head&gt;<br>&lt;title&gt;Bootstrap 
+Example&lt;/title&gt;<br>&lt;meta charset=&quot;utf-8&quot;&gt;<br>&lt;meta name=&quot;viewport&quot; 
+content=&quot;width=device-width, initial-scale=1&quot;&gt;<br>&lt;link rel=&quot;stylesheet&quot; 
+href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css&quot;&gt;<br>
+&lt;script 
+src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js&quot;&gt;&lt;/script&gt;<br>
+&lt;script 
+src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;<br>
+&lt;/head&gt;<br>&lt;body&gt;<br><br>&lt;div class=&quot;container&quot;&gt;<br>&nbsp; &lt;div 
+class=&quot;jumbotron&quot;&gt;<br>&nbsp;&nbsp;&nbsp; &lt;h1&gt;My First Bootstrap Page&lt;/h1&gt;<br>&nbsp; 
+&lt;/div&gt;<br>&nbsp; &lt;div class=&quot;row&quot;&gt;<br>&nbsp;&nbsp;&nbsp; &lt;div 
+class=&quot;col-sm-4&quot;&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...<br>&nbsp;&nbsp;&nbsp; 
+&lt;/div&gt;<br>&nbsp;&nbsp;&nbsp; &lt;div class=&quot;col-sm-4&quot;&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+...<br>&nbsp;&nbsp;&nbsp; &lt;/div&gt;<br>&nbsp;&nbsp;&nbsp; &lt;div 
+class=&quot;col-sm-4&quot;&gt;<br>&nbsp;&nbsp;&nbsp; ...<br>&nbsp;&nbsp;&nbsp; &lt;/div&gt;<br>&nbsp; 
+&lt;/div&gt;<br>&lt;/div&gt;<br><br>&lt;/body&gt;<br>&lt;/html&gt;</div>
+</div>
+
+<br>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="layout.html">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="computercode_elements.html" style="margin: 200px">Next &#10095;</a>
+</div>
+							</div>
+							<!-- pagination -->
+
+						</div>
+						<!-- /row -->
+					</div>
+					<!-- /main blog -->
+
+					<!-- aside blog -->
+					<div id="aside" class="col-md-3">
+
+						<!-- category widget -->
+						<div class="widget category-widget">
+							<h3>HTML tutorial</h3>
+							<a class="category" href="default.html">HTML HOME</a>
+							<a class="category" href="intro.html">HTML Introduction</a>
+							<a class="category" href="editors.html">HTML Editors</a>
+							<a class="category" href="basic.html">HTML Basic</a>
+							<a class="category" href="elements.html">HTML Elements</a>
+                            <a class="category" href="attributes.html">HTML Attributes</a>
+                            <a class="category" href="headings.html">HTML Headings</a>
+							<a class="category" href="paragraphs.html">HTML Paragraphs</a>
+							<a class="category" href="styles.html">HTML Styles</a>
+							<a class="category" href="formatting.html">HTML Formatting</a>
+							<a class="category" href="quotation_elements.html">HTML Quotations</a>
+                            <a class="category" href="comments.html">HTML Comments</a>
+                            <a class="category" href="colors.html">HTML Colors</a>
+							<a class="category" href="css.html">HTML CSS</a>
+							<a class="category" href="links.html">HTML Links</a>
+							<a class="category" href="images.html">HTML Images</a>
+							<a class="category" href="tables.html">HTML Tables</a>
+                            <a class="category" href="lists.html">HTML Lists</a>
+                            <a class="category" href="blocks.html">HTML Blocks</a>
+							<a class="category" href="classes.html">HTML Classes</a>
+							<a class="category" href="id.html">HTML Id</a>
+							<a class="category" href="iframe.html">HTML Iframes</a>
+							<a class="category" href="scripts.html">HTML JavaScript</a>
+                            <a class="category" href="filepaths.html">HTML File Paths</a>
+                            <a class="category" href="head.html">HTML Head</a>
+							<a class="category" href="layout.html">HTML Layout</a>
+							<a class="category" href="responsive.html">HTML Responsive</a>
+							<a class="category" href="computercode_elements.html">HTML Computercode</a>
+							<a class="category" href="entities.html">HTML Entities</a>
+                            <a class="category" href="symbols.html">HTML Symbols</a>
+                            <a class="category" href="charset.html">HTML Charset</a>
+							<a class="category" href="urlencode.html">HTML URL Encode</a>
+							<a class="category" href="xhtml.html">HTML XHTML</a>
+                            
+                            
+						</div>
+						<!-- /category widget -->
+
+						
+
+					</div>
+					<!-- /aside blog -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- container -->
+
+		</div>
+		<!-- /Blog -->
+
+		<!-- Footer -->
+		<footer id="footer" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- footer logo -->
+					<div class="col-md-6">
+						<div class="footer-logo">
+							<a class="logo" href="index.php">
+								<img src="../../img/logo.png" alt="logo">
+							</a>
+						</div>
+					</div>
+					<!-- footer logo -->
+
+					<!-- footer nav -->
+					<div class="col-md-6">
+						<ul class="footer-nav">
+							<li><a href="../../index.php">Home</a></li>
+							<li><a href="../../courses.php">Courses</a></li>
+							<li><a href="../../contact.php">Contact</a></li>
+						</ul>
+					</div>
+					<!-- /footer nav -->
+
+				</div>
+				<!-- /row -->
+
+				<!-- row -->
+				<div id="bottom-footer" class="row">
+
+					<!-- social -->
+					<div class="col-md-4 col-md-push-8">
+						<ul class="footer-social">
+							<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+					<!-- /social -->
+
+					<!-- copyright -->
+					<div class="col-md-8 col-md-pull-4">
+						<div class="footer-copyright">
+							<span>&copy; Copyright 2018. All Rights Reserved.</span>
+						</div>
+					</div>
+					<!-- /copyright -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- /container -->
+
+		</footer>
+		<!-- /Footer -->
+
+		<!-- preloader -->
+		<div id='preloader'><div class='preloader'></div></div>
+		<!-- /preloader -->
+
+
+		<!-- jQuery Plugins -->
+		<script type="text/javascript" src="../../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../../js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>HTML Education Template</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="../../css/bootstrap.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="../../css/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    </head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a class="logo" href="../../index.php">
+							<img src="../../img/logo.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Mobile toggle -->
+					<button class="navbar-toggle">
+						<span></span>
+					</button>
+					<!-- /Mobile toggle -->
+				</div>
+
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul class="main-menu nav navbar-nav navbar-right">
+						<li><a href="../../index.php">Home</a></li>
+						<li><a href="../../about.php">About</a></li>
+						<li><a href="../../courses.php">Courses</a></li>
+						<li><a href="../../contact.php">Contact</a></li>
+					</ul>
+				</nav>
+				<!-- /Navigation -->
+
+			</div>
+		</header>
+		<!-- /Header -->
+
+		<!-- Hero-area -->
+		<div class="hero-area section">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(../../img/page-background.jpg)"></div>
+			<!-- /Backgound Image -->
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 text-center">
+						<ul class="hero-area-tree">
+							<li><a href="../../index.php">Home</a></li>
+                            <li><a href="../../courses.php">Courses</a></li>
+                            <li>CSS</li>
+						</ul>
+						<h1 class="white-text">CSS</h1>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- /Hero-area -->
+
+		<!-- Blog -->
+		<div id="blog" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- main blog -->
+					<div id="main" class="col-md-9">
+
+
+						<!-- row -->
+						<div class="row">
+
+							<!-- pagination -->
+							<div class="col-md-12">
+                                <h1>CSS <span class="color_h1">Syntax and Selectors</span></h1>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="css_intro.asp">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="css_howto.asp">Next &#10095;</a>
+</div>
+<hr>
+<h2>CSS Syntax</h2>
+<p>A CSS rule-set consists of a selector and a declaration block:</p>
+<p><img src="selector.gif" alt="CSS selector" class="w3-image"></p>
+<p>The selector points to the HTML element you want to style.</p>
+<p>The declaration block contains one or more declarations separated by 
+semicolons.</p>
+<p>Each declaration includes a CSS property name and a value, separated by a colon.</p>
+<p>A CSS declaration always ends with a semicolon, and declaration blocks are 
+surrounded by curly braces.</p>
+<p>In the following example all &lt;p&gt; elements will be center-aligned, with a red 
+text color:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p
+{<br>
+&nbsp;&nbsp;&nbsp;
+color: red;<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>
+}
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax1" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<hr>
+
+<h2>CSS Selectors</h2>
+<p>CSS selectors are used to &quot;find&quot; (or select) HTML elements based on their 
+element name, id, 
+class, attribute, and more.</p>
+<hr>
+
+<h2>The element Selector</h2>
+<p>The element selector selects elements based on the element name.</p>
+<p>You can select all &lt;p&gt; elements on a page like this (in this case, all &lt;p&gt; elements will be 
+center-aligned, with a red text color):</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p
+{<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>
+&nbsp;&nbsp;&nbsp;
+color: red;<br>
+}
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax_element" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<hr>
+<div style="overflow:auto;text-align:center">
+<!-- MidContent -->
+
+  <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+  <div id="snhb-mid_content-0"></div>
+    
+</div>
+<hr>
+
+<h2>The id Selector</h2>
+<p>The id selector uses the id attribute of an HTML element to select a specific element.</p>
+<p>The id of an element should be unique within a page, so the id selector is 
+used to 
+select one unique element!</p>
+<p>To select an element with a specific id, write a hash (#) character, followed by 
+the id of the element.</p>
+<p>The style rule below will be applied to the HTML element with id=&quot;para1&quot;:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+#para1
+{<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>
+&nbsp;&nbsp;&nbsp;
+color: red;<br>
+}
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax_id" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+
+<div class="w3-panel w3-note">
+ <p><strong>Note:</strong> An id name cannot start with a number!</p>
+</div>
+<hr>
+
+<h2>The class Selector</h2>
+<p>The class selector selects elements with a specific class attribute.</p>
+<p>To select elements with a specific class, write a period (.) character, followed by the name of the class.</p>
+<p>In the example below, all HTML elements with class=&quot;center&quot; will be red and center-aligned:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+.center {<br>&nbsp;&nbsp;&nbsp; text-align: center;<br>&nbsp;&nbsp;&nbsp; color: red;<br>}
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax_class" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+
+<p>You can also specify that only specific HTML elements should be affected by a class.</p>
+<p>In the example below, only &lt;p&gt; elements with class=&quot;center&quot; will be center-aligned:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p.center {<br>&nbsp;&nbsp;&nbsp; text-align: center;<br>&nbsp;&nbsp;&nbsp; color: red;<br>}
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax_element_class" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+
+<p>HTML elements 
+can also refer to more than one class.</p>
+<p>In the example below, the &lt;p&gt; element will be styled according to class=&quot;center&quot; 
+and to class=&quot;large&quot;:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;p class=&quot;center large&quot;&gt;This paragraph refers to two classes.&lt;/p&gt;</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax_element_class2" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<div class="w3-panel w3-note">
+  <p><strong>Note:</strong> A class name cannot start with a number!</p>
+</div>
+
+<hr>
+
+<h2>Grouping Selectors</h2>
+<p>If you have elements with the same style definitions, like this:</p>
+<div class="w3-example">
+<div class="w3-code notranslate cssHigh">
+h1
+{<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>&nbsp;&nbsp;&nbsp; color: red;<br>
+}<br>
+<br>h2
+{<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>&nbsp;&nbsp;&nbsp; color: red;<br>}<br>
+<br>p
+{<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>&nbsp;&nbsp;&nbsp; color: red;<br>
+}</div></div>
+
+
+<p>It will be better to group the selectors, to minimize the code.</p>
+<p>To group selectors, separate each selector with a comma.</p>
+<p>In the example below we have grouped the selectors from the code above:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+h1, h2, p
+{<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>&nbsp;&nbsp;&nbsp; color: red;<br>}</div>
+<a target="_blank" href="tryit.asp?filename=trycss_grouping" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<hr>
+
+<h2>CSS Comments</h2>
+<p>Comments are used to explain the code, and may help when you edit the source code at a later date.</p>
+<p>Comments are ignored by browsers.</p>
+<p>A CSS comment starts with /* and ends with */. Comments can also span 
+multiple lines:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p
+{<br>
+&nbsp;&nbsp;&nbsp;
+color: red;<br>
+&nbsp;&nbsp;&nbsp;
+/* This is a single-line comment */<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>
+}<br><br>/* This is<br>a multi-line<br>comment */
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax2" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<hr>
+
+<h2>Test Yourself with Exercises!</h2>
+<p>
+<a class="w3-btn" href="exercise.asp?filename=exercise_syntax1" target="_blank">Exercise 1 &raquo;</a>&nbsp;
+<a class="w3-btn" href="exercise.asp?filename=exercise_syntax2" target="_blank">Exercise 2 &raquo;</a>&nbsp;
+<a class="w3-btn" href="exercise.asp?filename=exercise_syntax3" target="_blank">Exercise 3 &raquo;</a>&nbsp;
+<a class="w3-btn" href="exercise.asp?filename=exercise_syntax4" target="_blank">Exercise 4 &raquo;</a>
+</p>
+
+<br>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="css_intro.asp">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="css_howto.asp">Next &#10095;</a>
+</div>
+<h1>CSS <span class="color_h1">Syntax and Selectors</span></h1>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="css_intro.asp">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="css_howto.asp">Next &#10095;</a>
+</div>
+<hr>
+<h2>CSS Syntax</h2>
+<p>A CSS rule-set consists of a selector and a declaration block:</p>
+<p><img src="selector.gif" alt="CSS selector" class="w3-image"></p>
+<p>The selector points to the HTML element you want to style.</p>
+<p>The declaration block contains one or more declarations separated by 
+semicolons.</p>
+<p>Each declaration includes a CSS property name and a value, separated by a colon.</p>
+<p>A CSS declaration always ends with a semicolon, and declaration blocks are 
+surrounded by curly braces.</p>
+<p>In the following example all &lt;p&gt; elements will be center-aligned, with a red 
+text color:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p
+{<br>
+&nbsp;&nbsp;&nbsp;
+color: red;<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>
+}
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax1" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<hr>
+
+<h2>CSS Selectors</h2>
+<p>CSS selectors are used to &quot;find&quot; (or select) HTML elements based on their 
+element name, id, 
+class, attribute, and more.</p>
+<hr>
+
+<h2>The element Selector</h2>
+<p>The element selector selects elements based on the element name.</p>
+<p>You can select all &lt;p&gt; elements on a page like this (in this case, all &lt;p&gt; elements will be 
+center-aligned, with a red text color):</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p
+{<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>
+&nbsp;&nbsp;&nbsp;
+color: red;<br>
+}
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax_element" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<hr>
+<div style="overflow:auto;text-align:center">
+<!-- MidContent -->
+
+  <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+  <div id="snhb-mid_content-0"></div>
+    
+</div>
+<hr>
+
+<h2>The id Selector</h2>
+<p>The id selector uses the id attribute of an HTML element to select a specific element.</p>
+<p>The id of an element should be unique within a page, so the id selector is 
+used to 
+select one unique element!</p>
+<p>To select an element with a specific id, write a hash (#) character, followed by 
+the id of the element.</p>
+<p>The style rule below will be applied to the HTML element with id=&quot;para1&quot;:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+#para1
+{<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>
+&nbsp;&nbsp;&nbsp;
+color: red;<br>
+}
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax_id" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+
+<div class="w3-panel w3-note">
+ <p><strong>Note:</strong> An id name cannot start with a number!</p>
+</div>
+<hr>
+
+<h2>The class Selector</h2>
+<p>The class selector selects elements with a specific class attribute.</p>
+<p>To select elements with a specific class, write a period (.) character, followed by the name of the class.</p>
+<p>In the example below, all HTML elements with class=&quot;center&quot; will be red and center-aligned:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+.center {<br>&nbsp;&nbsp;&nbsp; text-align: center;<br>&nbsp;&nbsp;&nbsp; color: red;<br>}
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax_class" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+
+<p>You can also specify that only specific HTML elements should be affected by a class.</p>
+<p>In the example below, only &lt;p&gt; elements with class=&quot;center&quot; will be center-aligned:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p.center {<br>&nbsp;&nbsp;&nbsp; text-align: center;<br>&nbsp;&nbsp;&nbsp; color: red;<br>}
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax_element_class" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+
+<p>HTML elements 
+can also refer to more than one class.</p>
+<p>In the example below, the &lt;p&gt; element will be styled according to class=&quot;center&quot; 
+and to class=&quot;large&quot;:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;p class=&quot;center large&quot;&gt;This paragraph refers to two classes.&lt;/p&gt;</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax_element_class2" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<div class="w3-panel w3-note">
+  <p><strong>Note:</strong> A class name cannot start with a number!</p>
+</div>
+
+<hr>
+
+<h2>Grouping Selectors</h2>
+<p>If you have elements with the same style definitions, like this:</p>
+<div class="w3-example">
+<div class="w3-code notranslate cssHigh">
+h1
+{<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>&nbsp;&nbsp;&nbsp; color: red;<br>
+}<br>
+<br>h2
+{<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>&nbsp;&nbsp;&nbsp; color: red;<br>}<br>
+<br>p
+{<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>&nbsp;&nbsp;&nbsp; color: red;<br>
+}</div></div>
+
+
+<p>It will be better to group the selectors, to minimize the code.</p>
+<p>To group selectors, separate each selector with a comma.</p>
+<p>In the example below we have grouped the selectors from the code above:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+h1, h2, p
+{<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>&nbsp;&nbsp;&nbsp; color: red;<br>}</div>
+<a target="_blank" href="tryit.asp?filename=trycss_grouping" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<hr>
+
+<h2>CSS Comments</h2>
+<p>Comments are used to explain the code, and may help when you edit the source code at a later date.</p>
+<p>Comments are ignored by browsers.</p>
+<p>A CSS comment starts with /* and ends with */. Comments can also span 
+multiple lines:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p
+{<br>
+&nbsp;&nbsp;&nbsp;
+color: red;<br>
+&nbsp;&nbsp;&nbsp;
+/* This is a single-line comment */<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>
+}<br><br>/* This is<br>a multi-line<br>comment */
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax2" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<hr>
+
+<h2>Test Yourself with Exercises!</h2>
+<p>
+<a class="w3-btn" href="exercise.asp?filename=exercise_syntax1" target="_blank">Exercise 1 &raquo;</a>&nbsp;
+<a class="w3-btn" href="exercise.asp?filename=exercise_syntax2" target="_blank">Exercise 2 &raquo;</a>&nbsp;
+<a class="w3-btn" href="exercise.asp?filename=exercise_syntax3" target="_blank">Exercise 3 &raquo;</a>&nbsp;
+<a class="w3-btn" href="exercise.asp?filename=exercise_syntax4" target="_blank">Exercise 4 &raquo;</a>
+</p>
+
+<br>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="css_intro.asp">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="css_howto.asp">Next &#10095;</a>
+</div>
+<h1>CSS <span class="color_h1">Syntax and Selectors</span></h1>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="css_intro.asp">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="css_howto.asp">Next &#10095;</a>
+</div>
+<hr>
+<h2>CSS Syntax</h2>
+<p>A CSS rule-set consists of a selector and a declaration block:</p>
+<p><img src="selector.gif" alt="CSS selector" class="w3-image"></p>
+<p>The selector points to the HTML element you want to style.</p>
+<p>The declaration block contains one or more declarations separated by 
+semicolons.</p>
+<p>Each declaration includes a CSS property name and a value, separated by a colon.</p>
+<p>A CSS declaration always ends with a semicolon, and declaration blocks are 
+surrounded by curly braces.</p>
+<p>In the following example all &lt;p&gt; elements will be center-aligned, with a red 
+text color:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p
+{<br>
+&nbsp;&nbsp;&nbsp;
+color: red;<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>
+}
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax1" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<hr>
+
+<h2>CSS Selectors</h2>
+<p>CSS selectors are used to &quot;find&quot; (or select) HTML elements based on their 
+element name, id, 
+class, attribute, and more.</p>
+<hr>
+
+<h2>The element Selector</h2>
+<p>The element selector selects elements based on the element name.</p>
+<p>You can select all &lt;p&gt; elements on a page like this (in this case, all &lt;p&gt; elements will be 
+center-aligned, with a red text color):</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p
+{<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>
+&nbsp;&nbsp;&nbsp;
+color: red;<br>
+}
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax_element" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<hr>
+<div style="overflow:auto;text-align:center">
+<!-- MidContent -->
+
+  <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+  <div id="snhb-mid_content-0"></div>
+    
+</div>
+<hr>
+
+<h2>The id Selector</h2>
+<p>The id selector uses the id attribute of an HTML element to select a specific element.</p>
+<p>The id of an element should be unique within a page, so the id selector is 
+used to 
+select one unique element!</p>
+<p>To select an element with a specific id, write a hash (#) character, followed by 
+the id of the element.</p>
+<p>The style rule below will be applied to the HTML element with id=&quot;para1&quot;:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+#para1
+{<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>
+&nbsp;&nbsp;&nbsp;
+color: red;<br>
+}
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax_id" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+
+<div class="w3-panel w3-note">
+ <p><strong>Note:</strong> An id name cannot start with a number!</p>
+</div>
+<hr>
+
+<h2>The class Selector</h2>
+<p>The class selector selects elements with a specific class attribute.</p>
+<p>To select elements with a specific class, write a period (.) character, followed by the name of the class.</p>
+<p>In the example below, all HTML elements with class=&quot;center&quot; will be red and center-aligned:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+.center {<br>&nbsp;&nbsp;&nbsp; text-align: center;<br>&nbsp;&nbsp;&nbsp; color: red;<br>}
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax_class" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+
+<p>You can also specify that only specific HTML elements should be affected by a class.</p>
+<p>In the example below, only &lt;p&gt; elements with class=&quot;center&quot; will be center-aligned:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p.center {<br>&nbsp;&nbsp;&nbsp; text-align: center;<br>&nbsp;&nbsp;&nbsp; color: red;<br>}
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax_element_class" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+
+<p>HTML elements 
+can also refer to more than one class.</p>
+<p>In the example below, the &lt;p&gt; element will be styled according to class=&quot;center&quot; 
+and to class=&quot;large&quot;:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;p class=&quot;center large&quot;&gt;This paragraph refers to two classes.&lt;/p&gt;</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax_element_class2" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<div class="w3-panel w3-note">
+  <p><strong>Note:</strong> A class name cannot start with a number!</p>
+</div>
+
+<hr>
+
+<h2>Grouping Selectors</h2>
+<p>If you have elements with the same style definitions, like this:</p>
+<div class="w3-example">
+<div class="w3-code notranslate cssHigh">
+h1
+{<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>&nbsp;&nbsp;&nbsp; color: red;<br>
+}<br>
+<br>h2
+{<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>&nbsp;&nbsp;&nbsp; color: red;<br>}<br>
+<br>p
+{<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>&nbsp;&nbsp;&nbsp; color: red;<br>
+}</div></div>
+
+
+<p>It will be better to group the selectors, to minimize the code.</p>
+<p>To group selectors, separate each selector with a comma.</p>
+<p>In the example below we have grouped the selectors from the code above:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+h1, h2, p
+{<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>&nbsp;&nbsp;&nbsp; color: red;<br>}</div>
+<a target="_blank" href="tryit.asp?filename=trycss_grouping" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<hr>
+
+<h2>CSS Comments</h2>
+<p>Comments are used to explain the code, and may help when you edit the source code at a later date.</p>
+<p>Comments are ignored by browsers.</p>
+<p>A CSS comment starts with /* and ends with */. Comments can also span 
+multiple lines:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p
+{<br>
+&nbsp;&nbsp;&nbsp;
+color: red;<br>
+&nbsp;&nbsp;&nbsp;
+/* This is a single-line comment */<br>
+&nbsp;&nbsp;&nbsp;
+text-align: center;<br>
+}<br><br>/* This is<br>a multi-line<br>comment */
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_syntax2" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<hr>
+
+<h2>Test Yourself with Exercises!</h2>
+<p>
+<a class="w3-btn" href="exercise.asp?filename=exercise_syntax1" target="_blank">Exercise 1 &raquo;</a>&nbsp;
+<a class="w3-btn" href="exercise.asp?filename=exercise_syntax2" target="_blank">Exercise 2 &raquo;</a>&nbsp;
+<a class="w3-btn" href="exercise.asp?filename=exercise_syntax3" target="_blank">Exercise 3 &raquo;</a>&nbsp;
+<a class="w3-btn" href="exercise.asp?filename=exercise_syntax4" target="_blank">Exercise 4 &raquo;</a>
+</p>
+
+<br>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="css_intro.asp">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="css_howto.asp">Next &#10095;</a>
+</div>
+
+							</div>
+							<!-- pagination -->
+
+						</div>
+						<!-- /row -->
+					</div>
+					<!-- /main blog -->
+
+					<!-- aside blog -->
+					<div id="aside" class="col-md-3">
+
+						<!-- category widget -->
+						<div class="widget category-widget">
+                            <h2 class="left"><span class="left_h2">CSS</span> Tutorial</h2>
+                                <a class="category" href="default.html">CSS HOME</a>
+                                <a class="category" href="intro.html">CSS Introduction</a>
+                                <a class="category" href="syntax.html">CSS Syntax</a>
+                                <a class="category" href="howto.html">CSS How To</a>
+                                <a class="category" href="colors.html">CSS Colors</a>
+                                <a class="category" href="background.html">CSS Backgrounds</a>
+                                <a class="category" href="border.html">CSS Borders</a>
+                                <a class="category" href="margin.html">CSS Margins</a>
+                                <a class="category" href="padding.html">CSS Padding</a>
+                                <a class="category" href="dimension.html">CSS Height/Width</a>
+                                <a class="category" href="boxmodel.html">CSS Box Model</a>
+                                <a class="category" href="outline.html">CSS Outline</a>
+                                <a class="category" href="text.html">CSS Text</a>
+                                <a class="category" href="font.html">CSS Fonts</a>
+                                <a class="category" href="icons.html">CSS Icons</a>
+                                <a class="category" href="link.html">CSS Links</a>
+                                <a class="category" href="list.html">CSS Lists</a>
+                                <a class="category" href="table.html">CSS Tables</a>
+                                <a class="category" href="display_visibility.html">CSS Display</a>
+                                <a class="category" href="max-width.html">CSS Max-width</a>
+                                <a class="category" href="positioning.html">CSS Position</a>
+                                <a class="category" href="overflow.html">CSS Overflow</a>
+                                <a class="category" href="float.html">CSS Float</a>
+                                <a class="category" href="inline-block.html">CSS Inline-block</a>
+                                <a class="category" href="align.html">CSS Align</a>
+                                <a class="category" href="combinators.html">CSS Combinators</a>
+                                <a class="category" href="pseudo_classes.html">CSS Pseudo-class</a>
+                                <a class="category" href="pseudo_elements.html">CSS Pseudo-element</a>
+                                <a class="category" href="image_transparency.html">CSS Opacity</a>
+                                <a class="category" href="navbar.html">CSS Navigation Bar</a>
+                                <a class="category" href="dropdowns.html">CSS Dropdowns</a>
+                                <a class="category" href="image_gallery.html">CSS Image Gallery</a>
+                                <a class="category" href="image_sprites.html">CSS Image Sprites</a>
+                                <a class="category" href="attribute_selectors.html">CSS Attr Selectors</a>
+                                <a class="category" href="form.html">CSS Forms</a>
+                                <a class="category" href="counters.html">CSS Counters</a>
+                                <a class="category" href="website_layout.html">CSS Website Layout</a>
+                                <a class="category" href="units.html">CSS Units</a>
+                                <a class="category" href="specificity.html">CSS Specificity</a>
+                                <br>
+                                <h2 class="left"><span class="left_h2">CSS Advanced</span></h2>
+                                <a class="category" href="borders.html">CSS Rounded Corners</a>
+                                <a class="category" href="border_images.html">CSS Border Images</a>
+                                <a class="category" href="backgrounds.html">CSS Backgrounds</a>
+                                <a class="category" href="colors.html">CSS Colors</a>
+                                <a class="category" href="gradients.html">CSS Gradients</a>
+                                <a class="category" href="shadows.html">CSS Shadows</a>
+                                <a class="category" href="text_effects.html">CSS Text Effects</a>
+                                <a class="category" href="fonts.html">CSS Web Fonts</a>
+                                <a class="category" href="2dtransforms.html">CSS 2D Transforms</a>
+                                <a class="category" href="3dtransforms.html">CSS 3D Transforms</a>
+                                <a class="category" href="transitions.html">CSS Transitions</a>
+                                <a class="category" href="animations.html">CSS Animations</a>
+                                <a class="category" href="tooltip.html">CSS Tooltips</a>
+                                <a class="category" href="images.html">CSS Style Images</a>
+                                <a class="category" href="object-fit.html">CSS object-fit</a>
+                                <a class="category" href="buttons.html">CSS Buttons</a>
+                                <a class="category" href="pagination.html">CSS Pagination</a>
+                                <a class="category" href="multiple_columns.html">CSS Multiple Columns</a>
+                                <a class="category" href="user_interface.html">CSS User Interface</a>
+                                <a class="category" href="variables.html">CSS Variables</a>
+                                <a class="category" href="box-sizing.html">CSS Box Sizing</a>
+                                <a class="category" href="flexbox.html">CSS Flexbox</a>
+                                <a class="category" href="mediaqueries.html">CSS Media Queries</a>
+                                <a class="category" href="mediaqueries_ex.html">CSS MQ Examples</a>
+                                <br>
+                                <h2 class="left"><span class="left_h2">CSS</span> Responsive</h2>
+                                <a class="category" href="rwd_intro.html">RWD Intro</a>
+                                <a class="category" href="rwd_viewport.html">RWD Viewport</a>
+                                <a class="category" href="rwd_grid.html">RWD Grid View</a>
+                                <a class="category" href="rwd_mediaqueries.html">RWD Media Queries</a>
+                                <a class="category" href="rwd_images.html">RWD Images</a>
+                                <a class="category" href="rwd_videos.html">RWD Videos</a>
+                                <a class="category" href="rwd_frameworks.html">RWD Frameworks</a>
+                                <a class="category" href="rwd_templates.html">RWD Templates</a>
+
+						</div>
+						<!-- /category widget -->
+
+						
+
+					</div>
+					<!-- /aside blog -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- container -->
+
+		</div>
+		<!-- /Blog -->
+
+		<!-- Footer -->
+		<footer id="footer" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- footer logo -->
+					<div class="col-md-6">
+						<div class="footer-logo">
+							<a class="logo" href="index.php">
+								<img src="../../img/logo.png" alt="logo">
+							</a>
+						</div>
+					</div>
+					<!-- footer logo -->
+
+					<!-- footer nav -->
+					<div class="col-md-6">
+						<ul class="footer-nav">
+							<li><a href="../../index.php">Home</a></li>
+							<li><a href="../../about.php">About</a></li>
+							<li><a href="../../courses.php">Courses</a></li>
+							<li><a href="../../contact.php">Contact</a></li>
+						</ul>
+					</div>
+					<!-- /footer nav -->
+
+				</div>
+				<!-- /row -->
+
+				<!-- row -->
+				<div id="bottom-footer" class="row">
+
+					<!-- social -->
+					<div class="col-md-4 col-md-push-8">
+						<ul class="footer-social">
+							<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+					<!-- /social -->
+
+					<!-- copyright -->
+					<div class="col-md-8 col-md-pull-4">
+						<div class="footer-copyright">
+							<span>&copy; Copyright 2018. All Rights Reserved.</span>
+						</div>
+					</div>
+					<!-- /copyright -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- /container -->
+
+		</footer>
+		<!-- /Footer -->
+
+		<!-- preloader -->
+		<div id='preloader'><div class='preloader'></div></div>
+		<!-- /preloader -->
+
+
+		<!-- jQuery Plugins -->
+		<script type="text/javascript" src="../../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../../js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>HTML Education Template</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="../../css/bootstrap.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="../../css/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    </head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a class="logo" href="../../index.php">
+							<img src="../../img/logo.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Mobile toggle -->
+					<button class="navbar-toggle">
+						<span></span>
+					</button>
+					<!-- /Mobile toggle -->
+				</div>
+
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul class="main-menu nav navbar-nav navbar-right">
+						<li><a href="../../index.php">Home</a></li>
+						<li><a href="../../about.php">About</a></li>
+						<li><a href="../../courses.php">Courses</a></li>
+						<li><a href="../../contact.php">Contact</a></li>
+					</ul>
+				</nav>
+				<!-- /Navigation -->
+
+			</div>
+		</header>
+		<!-- /Header -->
+
+		<!-- Hero-area -->
+		<div class="hero-area section">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(../../img/page-background.jpg)"></div>
+			<!-- /Backgound Image -->
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 text-center">
+						<ul class="hero-area-tree">
+							<li><a href="../../index.php">Home</a></li>
+                            <li><a href="../../courses.php">Courses</a></li>
+                            <li>CSS</li>
+						</ul>
+						<h1 class="white-text">CSS</h1>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- /Hero-area -->
+
+		<!-- Blog -->
+		<div id="blog" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- main blog -->
+					<div id="main" class="col-md-9">
+
+
+						<!-- row -->
+						<div class="row">
+
+							<!-- pagination -->
+							<div class="col-md-12">
+                                <h1>CSS <span class="color_h1">Borders</span></h1>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="css_background.asp">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="css_margin.asp">Next &#10095;</a>
+</div>
+<hr>
+<h2>CSS Border Properties</h2>
+<p>The CSS <code class="w3-codespan" class="w3-codespan">border</code> properties allow you to specify the style, width, and color of an element's border.</p>
+<div class="w3-container w3-border w3-border-black w3-margin-top">
+<p>I have borders on all sides.</p>
+</div>
+<br>
+<div class="w3-container w3-border-bottom w3-border-red">
+<p>I have a red bottom border.</p>
+</div>
+<br>
+<div class="w3-container w3-border w3-round-xlarge">
+<p>I have rounded borders.</p>
+</div>
+<br>
+<div class="w3-container w3-pale-blue w3-leftbar w3-border-blue">
+<p>I have a blue left border.</p>
+</div>
+<hr>
+
+<h2>Border Style</h2>
+<p>The <code class="w3-codespan" class="w3-codespan">border-style</code> property specifies what kind of border to display.</p>
+<p>The following values are allowed:</p>
+<ul>
+<li><code class="w3-codespan" class="w3-codespan">dotted</code> - Defines a dotted border</li>
+<li><code class="w3-codespan" class="w3-codespan">dashed</code> - Defines a dashed border</li>
+<li><code class="w3-codespan" class="w3-codespan">solid</code> - Defines a solid border</li>
+<li><code class="w3-codespan" class="w3-codespan">double</code> - Defines a double border</li>
+<li><code class="w3-codespan" class="w3-codespan">groove</code> - Defines a 3D grooved border. The effect depends on the border-color value</li>
+<li><code class="w3-codespan" class="w3-codespan">ridge</code> - Defines a 3D ridged border. The effect depends on the border-color value</li>
+<li><code class="w3-codespan" class="w3-codespan">inset</code> - Defines a 3D inset border. The effect depends on the border-color value</li>
+<li><code class="w3-codespan" class="w3-codespan">outset</code> - Defines a 3D outset border. The effect depends on the border-color value</li>
+<li><code class="w3-codespan" class="w3-codespan">none</code> - Defines no border</li>
+<li><code class="w3-codespan" class="w3-codespan">hidden</code> - Defines a hidden border</li>
+</ul>
+
+<p>The <code class="w3-codespan" class="w3-codespan">border-style</code> property can have from one to four values (for 
+the top border, right border, bottom border, and the left border).</p>
+
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p.dotted {border-style: dotted;}<br>p.dashed 
+{border-style: dashed;}<br>p.solid {border-style: solid;}<br>p.double 
+{border-style: double;}<br>p.groove {border-style: groove;}<br>p.ridge 
+{border-style: ridge;}<br>p.inset {border-style: inset;}<br>p.outset 
+{border-style: outset;}<br>p.none {border-style: none;}<br>p.hidden {border-style: hidden;}<br>
+p.mix {border-style: dotted dashed solid double;}</div>
+<p>Result:</p>
+<div class="w3-white w3-padding notranslate">
+<p style="border-style: dotted;">A dotted border.</p>
+<p style="border-style: dashed;">A dashed border.</p>
+<p style="border-style: solid;">A solid border.</p>
+<p style="border-style: double;">A double border.</p>
+<p style="border-style: groove;">A groove border. The effect depends on the border-color value.</p>
+<p style="border-style: ridge;">A ridge border. The effect depends on the border-color value.</p>
+<p style="border-style: inset;">An inset border. The effect depends on the border-color value.</p>
+<p style="border-style: outset;">An outset border. The effect depends on the border-color value.</p>
+<p style="border-style: none;">No border.</p>
+<p style="border-style: hidden;">A hidden border.</p>
+<p style="border-style: dotted dashed solid double;">A mixed border.</p>
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_border-style" class="w3-btn w3-margin-top w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<div class="w3-panel w3-note">
+  <p><b>Note:</b> None of the OTHER CSS border properties described below will have ANY effect unless the 
+<code class="w3-codespan" class="w3-codespan">border-style</code> property is set!</p>
+</div>
+
+<hr>
+<div style="overflow:auto;text-align:center">
+<!-- MidContent -->
+
+  <div id='div-gpt-ad-1493883843099-0' style="display: inline-block">
+    <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1493883843099-0'); });
+    </script>
+  </div>
+    
+</div>
+<hr>
+
+<h2>Border Width</h2>
+<p>The <code class="w3-codespan" class="w3-codespan">border-width</code> property specifies the width of the four borders.</p>
+<p>The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: 
+thin, medium, or thick.</p>
+<p>The <code class="w3-codespan" class="w3-codespan">border-width</code> property can have from one to four values (for 
+the top border, right border, bottom border, and the left border).</p>
+
+<div style="border:5px solid black;padding:8px;">5px border-width</div>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p.one
+{<br>
+&nbsp;&nbsp;&nbsp;
+border-style: solid;<br>
+&nbsp;&nbsp;&nbsp;
+border-width: 5px;<br>
+}<br><br>
+p.two
+{<br>
+&nbsp;&nbsp;&nbsp;
+border-style: solid;<br>
+&nbsp;&nbsp;&nbsp;
+border-width: medium;<br>
+}<br><br>p.three
+{<br>
+&nbsp;&nbsp;&nbsp;
+border-style: solid;<br>
+&nbsp;&nbsp;&nbsp;
+border-width: 2px 10px 4px 20px;<br>
+}
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_border-width" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<hr>
+
+<h2>Border Color</h2>
+<p>The <code class="w3-codespan" class="w3-codespan">border-color</code> property is used to set the color of the four borders.</p>
+<p>The color can be set by:</p>
+<ul>
+<li>name - specify a color name, like &quot;red&quot;</li>
+<li>Hex - specify a hex value, like &quot;#ff0000&quot;</li>
+<li>RGB - specify a RGB value, like &quot;rgb(255,0,0)&quot;</li>
+<li>transparent</li>
+</ul>
+<p>The <code class="w3-codespan" class="w3-codespan">border-color</code> property can have from one to four values (for 
+the top border, right border, bottom border, and the left border).&nbsp;</p>
+<p>If <code class="w3-codespan" class="w3-codespan">border-color</code> is not set, it inherits the color of the element.</p>
+<div style="border:5px solid red;padding:8px;">Red border</div>
+
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p.one
+{<br>
+&nbsp;&nbsp;&nbsp;
+border-style: solid;<br>
+&nbsp;&nbsp;&nbsp;
+border-color: red;<br>
+}<br><br>
+p.two
+{<br>
+&nbsp;&nbsp;&nbsp;
+border-style: solid;<br>
+&nbsp;&nbsp;&nbsp;
+border-color: green;<br>
+}<br><br>p.three {<br>&nbsp;&nbsp;&nbsp; border-style: solid;<br>&nbsp;&nbsp;&nbsp; 
+border-color: red green blue yellow;<br>}</div>
+<a target="_blank" href="tryit.asp?filename=trycss_border-color1" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<hr>
+
+<h2>Border - Individual Sides</h2>
+<p>From the examples above you have seen that it is possible to specify a 
+different border for each side.</p>
+<p>In CSS, there are also properties for specifying each of the borders (top, 
+right, bottom, and left):</p>
+
+<div style="border-style: dotted solid;padding:8px;">Different Border Styles</div>
+
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p
+{<br>
+&nbsp;&nbsp;&nbsp;
+border-top-style: dotted;<br>
+&nbsp;&nbsp;&nbsp;
+border-right-style: solid;<br>
+&nbsp;&nbsp;&nbsp;
+border-bottom-style: dotted;<br>
+&nbsp;&nbsp;&nbsp;
+border-left-style: solid;<br>
+}</div>
+<a target="_blank" href="tryit.asp?filename=trycss_border-side" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<p>The example above gives the same result as this:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p {<br>&nbsp;&nbsp;&nbsp;
+border-style: dotted solid;<br>}</div>
+<a target="_blank" href="tryit.asp?filename=trycss_border-side2" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+
+<p>So, here is how it works:</p>
+<p>If the <code class="w3-codespan" class="w3-codespan">border-style</code> property has four values:</p>
+<ul>
+<li><b>border-style: dotted solid double dashed; </b>
+<ul><li>top border is dotted</li>
+<li>right border is solid</li>
+<li>bottom border is double</li>
+<li>left border is dashed</li>
+</ul>
+</li>
+</ul>
+<p>If the <code class="w3-codespan" class="w3-codespan">border-style</code> property has three values:</p>
+<ul>
+<li><b>border-style: dotted solid double;</b>
+<ul><li>top border is dotted</li>
+<li>right and left borders are solid</li>
+<li>bottom border is double</li></ul>
+</li>
+</ul>
+<p>If the <code class="w3-codespan" class="w3-codespan">border-style</code> property has two values:</p>
+<ul>
+<li><b>border-style: dotted solid;</b>
+<ul><li>top and bottom borders are dotted</li>
+<li>right and left borders are solid</li></ul>
+</li>
+</ul>
+<p>If the <code class="w3-codespan" class="w3-codespan">border-style</code> property has one value:</p>
+<ul>
+<li><b>border-style: dotted;</b><ul><li>all four borders are dotted</li></ul>
+</li>
+</ul>
+<p>The <code class="w3-codespan" class="w3-codespan">border-style</code> property is used in the example above. However, it also works with 
+<code class="w3-codespan" class="w3-codespan">border-width</code> 
+and <code class="w3-codespan" class="w3-codespan">border-color</code>.</p>
+<hr>
+
+<h2>Border - Shorthand Property</h2>
+<p>As you can see from the examples above, there are many properties to consider when dealing with borders.</p>
+<p>To shorten the code, it is also possible to specify all the individual border properties in 
+one property.</p>
+<p>The <code class="w3-codespan" class="w3-codespan">border</code> property is a shorthand property for the following individual border properties:</p>
+<ul>
+<li><code class="w3-codespan" class="w3-codespan">border-width</code></li>
+<li><code class="w3-codespan" class="w3-codespan">border-style</code> (required)</li>
+<li><code class="w3-codespan" class="w3-codespan">border-color</code></li>
+</ul>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p {<br>&nbsp;&nbsp;&nbsp;
+border: 5px solid red;<br>}</div>
+<p>Result:</p>
+<div class="w3-white w3-padding notranslate">
+<p style="border:5px solid red;padding:2px">Some text</p>
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_border" class="w3-btn w3-margin-top w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+
+<p>You can also specify all the individual border properties for just one side:</p>
+<div class="w3-example">
+<h3>Left Border</h3>
+<div class="w3-code notranslate cssHigh">
+p {<br>&nbsp;&nbsp;&nbsp;
+border-left: 6px solid red;<br>&nbsp;&nbsp;&nbsp; background-color: lightgrey;<br>}</div>
+<p>Result:</p>
+<div class="w3-white w3-padding notranslate">
+<p style="border-left:6px solid red;padding:5px 5px;background-color:lightgrey">Some text</p>
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_border_left" class="w3-btn w3-margin-top w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+
+<div class="w3-example">
+<h3>Bottom Border</h3>
+<div class="w3-code notranslate cssHigh">
+p {<br>&nbsp;&nbsp;&nbsp;
+border-bottom: 6px solid red;<br>&nbsp;&nbsp;&nbsp; background-color: lightgrey;<br>}</div>
+<p>Result:</p>
+<div class="w3-white w3-padding notranslate">
+<p style="border-bottom:6px solid red;padding:5px 5px;background-color:lightgrey">Some text</p>
+</div>
+<a target="_blank" href="tryit.asp?filename=trycss_border_bottom" class="w3-btn w3-margin-top w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+
+<hr>
+
+<h2>Rounded Borders</h2>
+<p>The <code class="w3-codespan" class="w3-codespan">border-radius</code> property is used to add rounded borders to an element:</p>
+<p style="border: 2px solid red;padding:2px;">Normal border</p>
+<p style="border: 2px solid red;border-radius: 5px;padding:2px;">Round border</p>
+<p style="border: 2px solid red;border-radius: 8px;padding:2px;">Rounder border</p>
+<p style="border: 2px solid red;border-radius: 12px;padding:2px;">Roundest border</p>
+
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate cssHigh">
+p {<br>&nbsp;&nbsp;&nbsp; border: 2px solid red;<br>&nbsp;&nbsp;&nbsp; 
+border-radius: 5px;<br>}</div>
+<a target="_blank" href="tryit.asp?filename=trycss_border_round" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+</div>
+<p><strong>Note:</strong> The <code class="w3-codespan" class="w3-codespan">border-radius</code> property is not supported in IE8 and earlier versions.</p>
+<hr>
+
+<h2>More Examples</h2>
+<p><a target="_blank" href="tryit.asp?filename=trycss_border-top">All the top border properties in one declaration</a><br>
+This example demonstrates a shorthand property for setting all of the properties for the top border in one declaration.</p>
+
+<p><a target="_blank" href="tryit.asp?filename=trycss_border-bottom-style">Set the style of the bottom border</a><br>
+This example demonstrates how to set the style of the bottom border.</p>
+
+<p><a target="_blank" href="tryit.asp?filename=trycss_border-left-width">Set the width of the left border</a><br>
+This example demonstrates how to set the width of the left border.</p>
+
+<p><a target="_blank" href="tryit.asp?filename=trycss_border-color">Set the color of the four borders</a><br>
+This example demonstrates how to set the color of the four borders. It can have from one to four colors.</p>
+
+<p><a target="_blank" href="tryit.asp?filename=trycss_border-right-color">Set the color of the right border</a><br>
+This example demonstrates how to set the color of the right border.</p>
+<hr>
+<h2>Test Yourself with Exercises!</h2>
+<p>
+<a class="w3-btn" href="exercise.asp?filename=exercise_border1" target="_blank">Exercise 1 &raquo;</a>&nbsp;
+<a class="w3-btn" href="exercise.asp?filename=exercise_border2" target="_blank">Exercise 2 &raquo;</a>&nbsp;
+<a class="w3-btn" href="exercise.asp?filename=exercise_border3" target="_blank">Exercise 3 &raquo;</a>&nbsp;
+<a class="w3-btn" href="exercise.asp?filename=exercise_border4" target="_blank">Exercise 4 &raquo;</a>
+</p>
+<hr>
+<h2>All CSS Border Properties</h2>
+<table class="w3-table-all notranslate">
+  <tr>
+    <th style="width:25%">Property</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border.asp">border</a></td>
+    <td>Sets all the border properties in one declaration</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-bottom.asp">border-bottom</a></td>
+    <td>Sets all the bottom border properties in one declaration</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-bottom_color.asp">border-bottom-color</a></td>
+    <td>Sets the color of the bottom border</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-bottom_style.asp">border-bottom-style</a></td>
+    <td>Sets the style of the bottom border</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-bottom_width.asp">border-bottom-width</a></td>
+    <td>Sets the width of the bottom border</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-color.asp">border-color</a></td>
+    <td>Sets the color of the four borders</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-left.asp">border-left</a></td>
+    <td>Sets all the left border properties in one declaration</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-left_color.asp">border-left-color</a></td>
+    <td>Sets the color of the left border</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-left_style.asp">border-left-style</a></td>
+    <td>Sets the style of the left border</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-left_width.asp">border-left-width</a></td>
+    <td>Sets the width of the left border</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/css3_pr_border-radius.asp">border-radius</a></td>
+    <td>Sets all the four border-*-radius properties for rounded corners</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-right.asp">border-right</a></td>
+    <td>Sets all the right border properties in one declaration</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-right_color.asp">border-right-color</a></td>
+    <td>Sets the color of the right border</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-right_style.asp">border-right-style</a></td>
+    <td>Sets the style of the right border</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-right_width.asp">border-right-width</a></td>
+    <td>Sets the width of the right border</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-style.asp">border-style</a></td>
+    <td>Sets the style of the four borders</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-top.asp">border-top</a></td>
+    <td>Sets all the top border properties in one declaration</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-top_color.asp">border-top-color</a></td>
+    <td>Sets the color of the top border</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-top_style.asp">border-top-style</a></td>
+    <td>Sets the style of the top border</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-top_width.asp">border-top-width</a></td>
+    <td>Sets the width of the top border</td>
+  </tr>
+  <tr>
+    <td><a href="/cssref/pr_border-width.asp">border-width</a></td>
+    <td>Sets the width of the four borders</td>
+  </tr>
+</table>
+
+<br>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="css_background.asp">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="css_margin.asp">Next &#10095;</a>
+</div>
+
+							</div>
+							<!-- pagination -->
+
+						</div>
+						<!-- /row -->
+					</div>
+					<!-- /main blog -->
+
+					<!-- aside blog -->
+					<div id="aside" class="col-md-3">
+
+						<!-- category widget -->
+						<div class="widget category-widget">
+                            <h2 class="left"><span class="left_h2">CSS</span> Tutorial</h2>
+                                <a class="category" href="default.html">CSS HOME</a>
+                                <a class="category" href="intro.html">CSS Introduction</a>
+                                <a class="category" href="syntax.html">CSS Syntax</a>
+                                <a class="category" href="howto.html">CSS How To</a>
+                                <a class="category" href="colors.html">CSS Colors</a>
+                                <a class="category" href="background.html">CSS Backgrounds</a>
+                                <a class="category" href="border.html">CSS Borders</a>
+                                <a class="category" href="margin.html">CSS Margins</a>
+                                <a class="category" href="padding.html">CSS Padding</a>
+                                <a class="category" href="dimension.html">CSS Height/Width</a>
+                                <a class="category" href="boxmodel.html">CSS Box Model</a>
+                                <a class="category" href="outline.html">CSS Outline</a>
+                                <a class="category" href="text.html">CSS Text</a>
+                                <a class="category" href="font.html">CSS Fonts</a>
+                                <a class="category" href="icons.html">CSS Icons</a>
+                                <a class="category" href="link.html">CSS Links</a>
+                                <a class="category" href="list.html">CSS Lists</a>
+                                <a class="category" href="table.html">CSS Tables</a>
+                                <a class="category" href="display_visibility.html">CSS Display</a>
+                                <a class="category" href="max-width.html">CSS Max-width</a>
+                                <a class="category" href="positioning.html">CSS Position</a>
+                                <a class="category" href="overflow.html">CSS Overflow</a>
+                                <a class="category" href="float.html">CSS Float</a>
+                                <a class="category" href="inline-block.html">CSS Inline-block</a>
+                                <a class="category" href="align.html">CSS Align</a>
+                                <a class="category" href="combinators.html">CSS Combinators</a>
+                                <a class="category" href="pseudo_classes.html">CSS Pseudo-class</a>
+                                <a class="category" href="pseudo_elements.html">CSS Pseudo-element</a>
+                                <a class="category" href="image_transparency.html">CSS Opacity</a>
+                                <a class="category" href="navbar.html">CSS Navigation Bar</a>
+                                <a class="category" href="dropdowns.html">CSS Dropdowns</a>
+                                <a class="category" href="image_gallery.html">CSS Image Gallery</a>
+                                <a class="category" href="image_sprites.html">CSS Image Sprites</a>
+                                <a class="category" href="attribute_selectors.html">CSS Attr Selectors</a>
+                                <a class="category" href="form.html">CSS Forms</a>
+                                <a class="category" href="counters.html">CSS Counters</a>
+                                <a class="category" href="website_layout.html">CSS Website Layout</a>
+                                <a class="category" href="units.html">CSS Units</a>
+                                <a class="category" href="specificity.html">CSS Specificity</a>
+                                <br>
+                                <h2 class="left"><span class="left_h2">CSS Advanced</span></h2>
+                                <a class="category" href="borders.html">CSS Rounded Corners</a>
+                                <a class="category" href="border_images.html">CSS Border Images</a>
+                                <a class="category" href="backgrounds.html">CSS Backgrounds</a>
+                                <a class="category" href="colors.html">CSS Colors</a>
+                                <a class="category" href="gradients.html">CSS Gradients</a>
+                                <a class="category" href="shadows.html">CSS Shadows</a>
+                                <a class="category" href="text_effects.html">CSS Text Effects</a>
+                                <a class="category" href="fonts.html">CSS Web Fonts</a>
+                                <a class="category" href="2dtransforms.html">CSS 2D Transforms</a>
+                                <a class="category" href="3dtransforms.html">CSS 3D Transforms</a>
+                                <a class="category" href="transitions.html">CSS Transitions</a>
+                                <a class="category" href="animations.html">CSS Animations</a>
+                                <a class="category" href="tooltip.html">CSS Tooltips</a>
+                                <a class="category" href="images.html">CSS Style Images</a>
+                                <a class="category" href="object-fit.html">CSS object-fit</a>
+                                <a class="category" href="buttons.html">CSS Buttons</a>
+                                <a class="category" href="pagination.html">CSS Pagination</a>
+                                <a class="category" href="multiple_columns.html">CSS Multiple Columns</a>
+                                <a class="category" href="user_interface.html">CSS User Interface</a>
+                                <a class="category" href="variables.html">CSS Variables</a>
+                                <a class="category" href="box-sizing.html">CSS Box Sizing</a>
+                                <a class="category" href="flexbox.html">CSS Flexbox</a>
+                                <a class="category" href="mediaqueries.html">CSS Media Queries</a>
+                                <a class="category" href="mediaqueries_ex.html">CSS MQ Examples</a>
+                                <br>
+                                <h2 class="left"><span class="left_h2">CSS</span> Responsive</h2>
+                                <a class="category" href="rwd_intro.html">RWD Intro</a>
+                                <a class="category" href="rwd_viewport.html">RWD Viewport</a>
+                                <a class="category" href="rwd_grid.html">RWD Grid View</a>
+                                <a class="category" href="rwd_mediaqueries.html">RWD Media Queries</a>
+                                <a class="category" href="rwd_images.html">RWD Images</a>
+                                <a class="category" href="rwd_videos.html">RWD Videos</a>
+                                <a class="category" href="rwd_frameworks.html">RWD Frameworks</a>
+                                <a class="category" href="rwd_templates.html">RWD Templates</a>
+
+						</div>
+						<!-- /category widget -->
+
+						
+
+					</div>
+					<!-- /aside blog -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- container -->
+
+		</div>
+		<!-- /Blog -->
+
+		<!-- Footer -->
+		<footer id="footer" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- footer logo -->
+					<div class="col-md-6">
+						<div class="footer-logo">
+							<a class="logo" href="index.php">
+								<img src="../../img/logo.png" alt="logo">
+							</a>
+						</div>
+					</div>
+					<!-- footer logo -->
+
+					<!-- footer nav -->
+					<div class="col-md-6">
+						<ul class="footer-nav">
+							<li><a href="../../index.php">Home</a></li>
+							<li><a href="../../about.php">About</a></li>
+							<li><a href="../../courses.php">Courses</a></li>
+							<li><a href="../../contact.php">Contact</a></li>
+						</ul>
+					</div>
+					<!-- /footer nav -->
+
+				</div>
+				<!-- /row -->
+
+				<!-- row -->
+				<div id="bottom-footer" class="row">
+
+					<!-- social -->
+					<div class="col-md-4 col-md-push-8">
+						<ul class="footer-social">
+							<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+					<!-- /social -->
+
+					<!-- copyright -->
+					<div class="col-md-8 col-md-pull-4">
+						<div class="footer-copyright">
+							<span>&copy; Copyright 2018. All Rights Reserved.</span>
+						</div>
+					</div>
+					<!-- /copyright -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- /container -->
+
+		</footer>
+		<!-- /Footer -->
+
+		<!-- preloader -->
+		<div id='preloader'><div class='preloader'></div></div>
+		<!-- /preloader -->
+
+
+		<!-- jQuery Plugins -->
+		<script type="text/javascript" src="../../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../../js/main.js"></script>
+
+	</body>
+</html>

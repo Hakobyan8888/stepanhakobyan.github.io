@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>HTML Education Template</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="../../css/bootstrap.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="../../css/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+        <style>
+            tr,td,th{
+                border: solid;
+                padding: 5px
+            }
+        </style>
+    </head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a class="logo" href="../../index.php">
+							<img src="../../img/logo.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Mobile toggle -->
+					<button class="navbar-toggle">
+						<span></span>
+					</button>
+					<!-- /Mobile toggle -->
+				</div>
+
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul class="main-menu nav navbar-nav navbar-right">
+						<li><a href="../../index.php">Home</a></li>
+						<li><a href="../../courses.php">Courses</a></li>
+						<li><a href="../../contact.php">Contact</a></li>
+					</ul>
+				</nav>
+				<!-- /Navigation -->
+
+			</div>
+		</header>
+		<!-- /Header -->
+
+		<!-- Hero-area -->
+		<div class="hero-area section">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(../../img/page-background.jpg)"></div>
+			<!-- /Backgound Image -->
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 text-center">
+						<ul class="hero-area-tree">
+							<li><a href="../../index.php">Home</a></li>
+							<li>Courses</li>
+						</ul>
+						<h1 class="white-text">Courses Page</h1>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- /Hero-area -->
+
+		<!-- Blog -->
+		<div id="blog" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- main blog -->
+					<div id="main" class="col-md-9">
+
+
+						<!-- row -->
+						<div class="row">
+
+							<!-- pagination -->
+							<div class="col-md-12">
+                                <h1>HTML <span class="color_h1">Block and Inline Elements</span></h1>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="html_lists.asp">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="html_classes.asp">Next &#10095;</a>
+</div>
+<hr>
+<p class="intro">Every HTML element has a default display value depending on what type 
+of element it is. The default display value for most elements is block or inline.</p>
+
+<hr>
+<h2>Block-level Elements</h2>
+<p>A block-level element always starts on a new line and takes up the full width available 
+(stretches out to the left and right as far as it can).</p>
+<div class="w3-theme-border" style="border-width:1px;border-style:solid;padding:5px;">
+The &lt;div&gt; element is a block-level element.</div>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;div&gt;Hello&lt;/div&gt;<br>&lt;div&gt;World&lt;/div&gt;</div>
+</div>
+
+<p>Block level elements in HTML:</p>
+<div class="w3-row htmlHigh" style="line-height:25px;font-family:Consolas,'Courier New', Courier, monospace;xfont-size:16px;">
+  <div class="mylist">&lt;address&gt;</div>
+  <div class="mylist">&lt;article&gt;</div>
+  <div class="mylist">&lt;aside&gt;</div>
+  <div class="mylist">&lt;blockquote&gt;</div>
+  <div class="mylist">&lt;canvas&gt;</div>
+  <div class="mylist">&lt;dd&gt;</div>
+  <div class="mylist">&lt;div&gt;</div>
+  <div class="mylist">&lt;dl&gt;</div>
+  <div class="mylist">&lt;dt&gt;</div>
+  <div class="mylist">&lt;fieldset&gt;</div>
+  <div class="mylist">&lt;figcaption&gt;</div>
+  <div class="mylist">&lt;figure&gt;</div>
+  <div class="mylist">&lt;footer&gt;</div>
+  <div class="mylist">&lt;form&gt;</div>
+  <div class="mylist">&lt;h1&gt;-&lt;h6&gt;</div>
+  <div class="mylist">&lt;header&gt;</div>
+  <div class="mylist">&lt;hr&gt;</div>
+  <div class="mylist">&lt;li&gt;</div>
+  <div class="mylist">&lt;main&gt;</div>
+  <div class="mylist">&lt;nav&gt;</div>
+  <div class="mylist">&lt;noscript&gt;</div>
+  <div class="mylist">&lt;ol&gt;</div>
+  <div class="mylist">&lt;output&gt;</div>
+  <div class="mylist">&lt;p&gt;</div>
+  <div class="mylist">&lt;pre&gt;</div>
+  <div class="mylist">&lt;section&gt;</div>
+  <div class="mylist">&lt;table&gt;</div>
+  <div class="mylist">&lt;tfoot&gt;</div>
+  <div class="mylist">&lt;ul&gt;</div>
+  <div class="mylist">&lt;video&gt;</div>
+</div>
+
+<hr>
+
+<h2>Inline Elements</h2>
+<p>An inline element does not start on a new line and only takes up as much width as necessary.</p>
+<p>This is <span class="w3-theme-border" style="border-width:1px;border-style:solid;padding:5px">an inline &lt;span&gt; element 
+inside</span> a paragraph.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;span&gt;Hello&lt;/span&gt;<br>&lt;span&gt;World&lt;/span&gt;</div>
+</div>
+
+<p>Inline elements in HTML:</p>
+<div class="w3-row htmlHigh" style="line-height:25px;font-family:Consolas,'Courier New', Courier, monospace;xfont-size:16px;">
+  <div class="mylist">&lt;a&gt;</div>
+  <div class="mylist">&lt;abbr&gt;</div>
+  <div class="mylist">&lt;acronym&gt;</div>
+  <div class="mylist">&lt;b&gt;</div>
+  <div class="mylist">&lt;bdo&gt;</div>
+  <div class="mylist">&lt;big&gt;</div>
+  <div class="mylist">&lt;br&gt;</div>
+  <div class="mylist">&lt;button&gt;</div>
+  <div class="mylist">&lt;cite&gt;</div>
+  <div class="mylist">&lt;code&gt;</div>
+  <div class="mylist">&lt;dfn&gt;</div>
+  <div class="mylist">&lt;em&gt;</div>
+  <div class="mylist">&lt;i&gt;</div>
+  <div class="mylist">&lt;img&gt;</div>
+  <div class="mylist">&lt;input&gt;</div>
+  <div class="mylist">&lt;kbd&gt;</div>
+  <div class="mylist">&lt;label&gt;</div>
+  <div class="mylist">&lt;map&gt;</div>
+  <div class="mylist">&lt;object&gt;</div>
+  <div class="mylist">&lt;q&gt;</div>
+  <div class="mylist">&lt;samp&gt;</div>
+  <div class="mylist">&lt;script&gt;</div>
+  <div class="mylist">&lt;select&gt;</div>
+  <div class="mylist">&lt;small&gt;</div>
+  <div class="mylist">&lt;span&gt;</div>
+  <div class="mylist">&lt;strong&gt;</div>
+  <div class="mylist">&lt;sub&gt;</div>
+  <div class="mylist">&lt;sup&gt;</div>
+  <div class="mylist">&lt;textarea&gt;</div>
+  <div class="mylist">&lt;time&gt;</div>
+  <div class="mylist">&lt;tt&gt;</div>
+  <div class="mylist">&lt;var&gt;</div>
+</div>
+<hr>
+<h2>The &lt;div&gt; Element</h2>
+<p>The <code class="w3-codespan">&lt;div&gt;</code> element is 
+often used as a container for other HTML elements.</p>
+<p>The <code class="w3-codespan">&lt;div&gt;</code> element has no required attributes, but <code class="w3-codespan">style</code>, <code class="w3-codespan">class</code> and <code class="w3-codespan">id</code> are common.</p>
+<p>When used together with CSS, the <code class="w3-codespan">&lt;div&gt;</code> element can be used to style blocks of 
+content:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;div style=&quot;background-color:black;color:white;padding:20px;&quot;&gt;<br>
+ &nbsp; &lt;h2&gt;London&lt;/h2&gt;<br>&nbsp; &lt;p&gt;London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.&lt;/p&gt;<br>
+ &lt;/div&gt;
+</div>
+</div>
+<hr>
+
+<h2>The &lt;span&gt; Element</h2>
+<p>The <code class="w3-codespan">&lt;span&gt;</code> element is  
+often used as a container for some text.</p>
+<p>The <code class="w3-codespan">&lt;span&gt;</code> element has no required attributes, but <code class="w3-codespan">style</code>, <code class="w3-codespan">class</code> and <code class="w3-codespan">id</code> are common.</p>
+<p>When used together with CSS, the <code class="w3-codespan">&lt;span&gt;</code> element can be used to style parts of the text:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;h1&gt;My &lt;span style=&quot;color:red&quot;&gt;Important&lt;/span&gt; Heading&lt;/h1&gt;<br>
+</div>
+</div>
+<hr>
+
+<h2>HTML Grouping Tags</h2>
+<table class="w3-table-all notranslate">
+<tr>
+<th>Tag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>&lt;div&gt;</td>
+<td>Defines a section in a document (block-level)</td>
+</tr>
+<tr>
+<td>&lt;span&gt;</td>
+<td>Defines a section in a document (inline)</td>
+</tr>
+</table>
+
+<br>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="lists.html">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="classes.html" style="margin: 200px">Next &#10095;</a>
+</div>
+
+							</div>
+							<!-- pagination -->
+
+						</div>
+						<!-- /row -->
+					</div>
+					<!-- /main blog -->
+
+					<!-- aside blog -->
+					<div id="aside" class="col-md-3">
+
+						<!-- category widget -->
+						<div class="widget category-widget">
+							<h3>HTML tutorial</h3>
+							<a class="category" href="default.html">HTML HOME</a>
+							<a class="category" href="intro.html">HTML Introduction</a>
+							<a class="category" href="editors.html">HTML Editors</a>
+							<a class="category" href="basic.html">HTML Basic</a>
+							<a class="category" href="elements.html">HTML Elements</a>
+                            <a class="category" href="attributes.html">HTML Attributes</a>
+                            <a class="category" href="headings.html">HTML Headings</a>
+							<a class="category" href="paragraphs.html">HTML Paragraphs</a>
+							<a class="category" href="styles.html">HTML Styles</a>
+							<a class="category" href="formatting.html">HTML Formatting</a>
+							<a class="category" href="quotation_elements.html">HTML Quotations</a>
+                            <a class="category" href="comments.html">HTML Comments</a>
+                            <a class="category" href="colors.html">HTML Colors</a>
+							<a class="category" href="css.html">HTML CSS</a>
+							<a class="category" href="links.html">HTML Links</a>
+							<a class="category" href="images.html">HTML Images</a>
+							<a class="category" href="tables.html">HTML Tables</a>
+                            <a class="category" href="lists.html">HTML Lists</a>
+                            <a class="category" href="blocks.html">HTML Blocks</a>
+							<a class="category" href="classes.html">HTML Classes</a>
+							<a class="category" href="id.html">HTML Id</a>
+							<a class="category" href="iframe.html">HTML Iframes</a>
+							<a class="category" href="scripts.html">HTML JavaScript</a>
+                            <a class="category" href="filepaths.html">HTML File Paths</a>
+                            <a class="category" href="head.html">HTML Head</a>
+							<a class="category" href="layout.html">HTML Layout</a>
+							<a class="category" href="responsive.html">HTML Responsive</a>
+							<a class="category" href="computercode_elements.html">HTML Computercode</a>
+							<a class="category" href="entities.html">HTML Entities</a>
+                            <a class="category" href="symbols.html">HTML Symbols</a>
+                            <a class="category" href="charset.html">HTML Charset</a>
+							<a class="category" href="urlencode.html">HTML URL Encode</a>
+							<a class="category" href="xhtml.html">HTML XHTML</a>
+                            
+                            
+						</div>
+						<!-- /category widget -->
+
+						
+
+					</div>
+					<!-- /aside blog -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- container -->
+
+		</div>
+		<!-- /Blog -->
+
+		<!-- Footer -->
+		<footer id="footer" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- footer logo -->
+					<div class="col-md-6">
+						<div class="footer-logo">
+							<a class="logo" href="index.php">
+								<img src="../../img/logo.png" alt="logo">
+							</a>
+						</div>
+					</div>
+					<!-- footer logo -->
+
+					<!-- footer nav -->
+					<div class="col-md-6">
+						<ul class="footer-nav">
+							<li><a href="../../index.php">Home</a></li>
+							<li><a href="../../courses.php">Courses</a></li>
+							<li><a href="../../contact.php">Contact</a></li>
+						</ul>
+					</div>
+					<!-- /footer nav -->
+
+				</div>
+				<!-- /row -->
+
+				<!-- row -->
+				<div id="bottom-footer" class="row">
+
+					<!-- social -->
+					<div class="col-md-4 col-md-push-8">
+						<ul class="footer-social">
+							<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+					<!-- /social -->
+
+					<!-- copyright -->
+					<div class="col-md-8 col-md-pull-4">
+						<div class="footer-copyright">
+							<span>&copy; Copyright 2018. All Rights Reserved.</span>
+						</div>
+					</div>
+					<!-- /copyright -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- /container -->
+
+		</footer>
+		<!-- /Footer -->
+
+		<!-- preloader -->
+		<div id='preloader'><div class='preloader'></div></div>
+		<!-- /preloader -->
+
+
+		<!-- jQuery Plugins -->
+		<script type="text/javascript" src="../../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../../js/main.js"></script>
+
+	</body>
+</html>

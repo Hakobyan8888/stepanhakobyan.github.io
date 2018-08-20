@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>HTML Education Template</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="../../css/bootstrap.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="../../css/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+        <style>
+            tr,td,th{
+                border: solid;
+                padding: 5px
+            }
+        </style>
+    </head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a class="logo" href="../../index.php">
+							<img src="../../img/logo.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Mobile toggle -->
+					<button class="navbar-toggle">
+						<span></span>
+					</button>
+					<!-- /Mobile toggle -->
+				</div>
+
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul class="main-menu nav navbar-nav navbar-right">
+						<li><a href="../../index.php">Home</a></li>
+						<li><a href="../../courses.php">Courses</a></li>
+						<li><a href="../../contact.php">Contact</a></li>
+					</ul>
+				</nav>
+				<!-- /Navigation -->
+
+			</div>
+		</header>
+		<!-- /Header -->
+
+		<!-- Hero-area -->
+		<div class="hero-area section">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(../../img/page-background.jpg)"></div>
+			<!-- /Backgound Image -->
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 text-center">
+						<ul class="hero-area-tree">
+							<li><a href="../../index.php">Home</a></li>
+							<li>Courses</li>
+						</ul>
+						<h1 class="white-text">Courses Page</h1>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- /Hero-area -->
+
+		<!-- Blog -->
+		<div id="blog" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- main blog -->
+					<div id="main" class="col-md-9">
+
+
+						<!-- row -->
+						<div class="row">
+
+							<!-- pagination -->
+							<div class="col-md-12">
+                                <h1>HTML <span class="color_h1">Images</span></h1>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="links.asp">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="tables.html" style="margin:200px">Next &#10095;</a>
+</div>
+<hr>
+<p class="intro">Images can improve the design and the appearance of a web page.</p>
+<hr>
+
+<div class="w3-row" style="text-align:center">
+  <div class="w3-col m4" style="background-image:url('../../img/post01.jpg');background-size:cover;height:300px;">
+  </div>
+  <div class="w3-col m4" style="background-image:url('../../img/post02.jpg');background-size:cover;height:300px;">
+  </div>
+  <div class="w3-col m4" style="background-image:url('../../img/post03.jpg');background-size:cover;height:300px;">
+  </div>
+</div>
+
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;img src=&quot;pic_trulli.jpg&quot; 
+<br>
+</div>
+</div>
+
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;img src=&quot;img_girl.jpg&quot; </div>
+</div>
+
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;img src=&quot;img_chania.jpg&quot; <br>
+</div>
+</div>
+<hr>
+
+<h2>HTML Images Syntax</h2>
+<p>In HTML, images are defined with the <code class="w3-codespan">&lt;img&gt;</code> tag.</p>
+<p>The <code class="w3-codespan">&lt;img&gt;</code> tag&nbsp;is empty, it contains attributes only, and does not 
+have a closing tag.</p>
+<p>The <code class="w3-codespan">src</code> attribute specifies the URL 
+(web address) of the image:</p>
+<div class="w3-example">
+<div class="w3-code notranslate htmlHigh">
+&lt;img src=&quot;<i>url</i>&quot;&gt;
+</div></div>
+<hr>
+
+<h2>The alt Attribute</h2>
+<p>The <code class="w3-codespan">alt</code> attribute provides an alternate text for an image, if the user for 
+some reason cannot view it (because of slow connection, an error in the src 
+attribute, or if the user uses a screen reader).</p>
+<p>The value of the <code class="w3-codespan">alt</code> attribute should describe the image:</p>
+<div class="w3-example">
+  <h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;img src=&quot;img_chania.jpg&quot; alt=&quot;Flowers 
+  in Chania&quot;&gt;
+</div>
+</div>
+<p>If a browser cannot find an image, it will display the value of the <code class="w3-codespan">alt</code> 
+attribute:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;img src=&quot;wrongname.gif&quot; alt=&quot;Flowers 
+  in Chania&quot;&gt;
+</div>
+</div>
+<div class="w3-panel w3-note">
+  <p><strong>Note:</strong> The <code class="w3-codespan">alt</code> attribute is required. A web page will not validate correctly without it.</p>
+</div>
+<hr>
+<div style="overflow:auto;text-align:center">
+<!-- MidContent -->
+
+  <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+  <div id="snhb-mid_content-0"></div>
+    
+</div>
+<hr>
+
+<h2>Image Size - Width and Height</h2>
+<p>You can use the <code class="w3-codespan">style</code> attribute to specify the width and 
+height of an image.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;img src=&quot;img_girl.jpg&quot; alt=&quot;Girl in a jacket&quot; style=&quot;width:500px;height:600px;&quot;&gt;
+</div>
+</div>
+
+<p>Alternatively, you can use the <code class="w3-codespan">width</code> and <code class="w3-codespan">height</code> attributes:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;img src=&quot;img_girl.jpg&quot; alt=&quot;Girl in a jacket&quot; width=&quot;500&quot; height=&quot;600&quot;&gt;
+</div>
+</div>
+<p>The <code class="w3-codespan">width</code> and <code class="w3-codespan">height</code> attributes always defines the width and height of the 
+image in pixels.</p>
+
+<div class="w3-panel w3-note">
+  <p><strong>Note:</strong> Always specify the width and height of an image. If width and height are not specified, the page 
+  might flicker while the image loads.</p>
+</div>
+<hr>
+
+<h2>Width and Height, or Style?</h2>
+<p>The <code class="w3-codespan">width</code>, <code class="w3-codespan">height</code>, and <code class="w3-codespan">style</code> attributes are valid in HTML5.</p>
+<p>However, we suggest using the <code class="w3-codespan">style</code> attribute. It prevents styles sheets from changing 
+the size of images:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&lt;head&gt;<br>&lt;style&gt;<br>img { <br>&nbsp;&nbsp;&nbsp; width:100%; <br>}<br>
+ &lt;/style&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br><br>&lt;img src=&quot;html5.gif&quot; alt=&quot;HTML5 Icon&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;<br>&lt;img src=&quot;html5.gif&quot; alt=&quot;HTML5 Icon&quot; style=&quot;width:128px;height:128px;&quot;&gt;<br><br>&lt;/body&gt;<br>&lt;/html&gt;</div>
+</div>
+<hr>
+
+<h2>Images in Another Folder</h2>
+<p>If not specified, the browser expects to find the image in the same folder as the web page.</p>
+<p>However, it is common to store images in a sub-folder. You must then include the folder 
+name in the <code class="w3-codespan">src</code> attribute:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;img src=&quot;/images/html5.gif&quot; 
+alt=&quot;HTML5 Icon&quot; style=&quot;width:128px;height:128px;&quot;&gt;
+</div>
+</div>
+<hr>
+
+<h2>Images on Another Server</h2>
+<p>Some web sites store their images on image servers.</p>
+<p>Actually, you can access images from any web address in the world:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;img src=&quot;https://www.w3schools.com/images/w3schools_green.jpg&quot; alt=&quot;W3Schools.com&quot;&gt;
+</div>
+</div>
+
+<div class="w3-panel w3-note">
+<p>You can read more about file paths in the chapter <a href="filepaths.html">HTML 
+File Paths</a>.</p>
+</div>
+<hr>
+
+<h2>Animated Images</h2>
+<p>HTML allows animated GIFs:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;img src=&quot;programming.gif&quot; alt=&quot;Computer Man&quot; style=&quot;width:48px;height:48px;&quot;&gt;
+</div>
+</div>
+<hr>
+
+<h2>Image as a Link</h2>
+<p>To use an image as a link, put the <code class="w3-codespan">&lt;img&gt;</code> tag inside the <code class="w3-codespan">&lt;a&gt;</code> 
+tag:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;a href=&quot;default.asp&quot;&gt;<br>&nbsp; &lt;img src=&quot;smiley.gif&quot; alt=&quot;HTML tutorial&quot; 
+style=&quot;width:42px;height:42px;border:0;&quot;&gt;<br>&lt;/a&gt;
+</div>
+</div>
+
+<div class="w3-panel w3-note">
+<p><strong>Note:</strong> <code class="w3-codespan">border:0;</code> is added to prevent IE9 (and earlier) from displaying a border around the image 
+(when the image is a link).</p>
+</div>
+<hr>
+
+<h2>Image Floating</h2>
+<p>Use the CSS <code class="w3-codespan">float</code> property to let the image float to the right or to the left of a text:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;p&gt;&lt;img src=&quot;smiley.gif&quot; alt=&quot;Smiley face&quot;
+style=&quot;float:right;width:42px;height:42px;&quot;&gt;<br>
+ The image will float to the right of 
+the text.&lt;/p&gt;<br><br>&lt;p&gt;&lt;img src=&quot;smiley.gif&quot; alt=&quot;Smiley face&quot;
+style=&quot;float:left;width:42px;height:42px;&quot;&gt;<br>
+ The image will float to the left of 
+the text.&lt;/p&gt;</div>
+</div>
+<div class="w3-note w3-panel">
+<p><strong>Tip:</strong> To learn more about CSS Float, read our CSS Float Tutorial.<br></p>
+</div>
+<hr>
+
+<h2>Image Maps</h2>
+<p>The <code class="w3-codespan">&lt;map&gt;</code> tag defines an image-map. An image-map is an image with 
+clickable areas.</p>
+<p>In the image below, click on the computer, the phone, or the cup of coffee:</p>
+
+<img src="../../img/workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Sun" href="https://en.wikipedia.org/wiki/Computer" target="_blank">
+  <area shape="rect" coords="290,172,333,250" alt="Mercury" href="https://en.wikipedia.org/wiki/Smartphone" target="_blank">
+  <area shape="circle" coords="337,300,44" alt="Venus" href="https://ru.wikipedia.org/wiki/Coffee" target="_blank">
+</map>
+
+<div class="w3-example">
+  <h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;img src=&quot;workplace.jpg&quot; alt=&quot;Workplace&quot; usemap=&quot;#workmap&quot;&gt;<br>
+<br>&lt;map name=&quot;workmap&quot;&gt;<br>&nbsp; &lt;area shape=&quot;rect&quot; coords=&quot;34,44,270,350&quot; 
+  alt=&quot;Computer&quot; href=&quot;computer.htm&quot;&gt;<br>&nbsp; &lt;area shape=&quot;rect&quot; coords=&quot;290,172,333,250&quot; 
+  alt=&quot;Phone&quot; href=&quot;phone.htm&quot;&gt;<br>&nbsp; &lt;area shape=&quot;circle&quot; coords=&quot;337,300,44&quot; 
+  alt=&quot;Coffee&quot; href=&quot;coffee.htm&quot;&gt;<br>&lt;/map&gt;</div>
+</div>
+
+<p>The <code class="w3-codespan">name</code> attribute of the <code class="w3-codespan">&lt;map&gt;</code> tag is associated with the <code class="w3-codespan">&lt;img&gt;</code>'s usemap 
+attribute and creates a relationship between the image and the map.</p>
+<p>The <code class="w3-codespan">&lt;map&gt;</code> element contains a number of <code class="w3-codespan">&lt;area&gt;</code> tags, that define the clickable 
+areas in the image-map.</p>
+<hr>
+<h2>Background Image</h2>
+<p>To add a background image on an HTML element, use the CSS property
+<code class="w3-codespan">background-image</code>:</p>
+<div class="w3-example">
+<h3>Example</h3>
+  <p>To add a background image on a web page, specify the background-image 
+  property on the BODY 
+  element:</p>
+<div class="w3-code notranslate htmlHigh">
+  &lt;body style=&quot;background-image:url('clouds.jpg')&quot;&gt;<br><br>&lt;h2&gt;Background 
+  Image&lt;/h2&gt;<br><br>&lt;/body&gt;</div>
+</div>
+<div class="w3-example">
+<h3>Example</h3>
+  <p>To add a background image on a paragraph, specify the background-image 
+  property on the P 
+  element:</p>
+<div class="w3-code notranslate htmlHigh">
+  &lt;body&gt;<br><br>&lt;p style=&quot;background-image:url('clouds.jpg')&quot;&gt;<br>...<br>&lt;/p&gt;<br><br>&lt;/body&gt;</div>
+</div>
+<hr>
+
+<h2>The &lt;picture&gt; Element</h2>
+<p>HTML5 introduced the <code class="w3-codespan">&lt;picture&gt;</code> element to add more flexibility when 
+specifying image resources.</p>
+<p>The <code class="w3-codespan">&lt;picture&gt;</code> element contains a number of &lt;source&gt; elements, each referring 
+to different image sources. This way the browser can choose the image that best 
+fits the current view and/or device.</p>
+<p>Each <code class="w3-codespan">&lt;source&gt;</code> element have attributes describing when their image is the 
+most suitable.</p>
+<p>The browser will use the first <code class="w3-codespan">&lt;source&gt;</code> element with matching attribute 
+values, and ignore any following <code class="w3-codespan">&lt;source&gt;</code> elements.</p>
+<div class="w3-example">
+<h3>Example</h3>
+  <p>Show one picture if the browser window (viewport) is a minimum of 650 
+  pixels, and another image if not, but larger than 465 pixels.</p>
+<div class="w3-code notranslate htmlHigh">
+  &lt;picture&gt;<br>&nbsp; &lt;source media="(min-width: 650px)" srcset="img_pink_flowers.jpg"&gt;<br>
+  &nbsp;
+  &lt;source media="(min-width: 465px)" srcset="img_white_flower.jpg"&gt;<br>&nbsp; &lt;img src="img_orange_flowers.jpg" 
+  alt="Flowers" style="width:auto;"&gt;<br>&lt;/picture&gt;</div>
+</div>
+
+
+<div class="w3-panel w3-note">
+<p><strong>Note:</strong> Always specify an <code class="w3-codespan">&lt;img&gt;</code> element as the last child 
+element of the <code class="w3-codespan">&lt;picture&gt;</code> element. The <code class="w3-codespan">&lt;img&gt;</code> element is used by browsers that 
+do 
+not support the <code class="w3-codespan">&lt;picture&gt;</code> element, or if none of the <code class="w3-codespan">&lt;source&gt;</code> tags matched.</p>
+</div>
+
+<hr>
+<h2>HTML Screen Readers</h2>
+<p>A screen reader is a software program that reads the HTML code, converts the 
+text, and allows the user to &quot;listen&quot; to the content. Screen readers are useful 
+for people who are blind, visually impaired, or learning disabled.</p>
+<hr>
+
+<h2>Chapter Summary</h2>
+<ul>
+  <li>Use the HTML <code class="w3-codespan">&lt;img&gt;</code> element to define an image</li>
+  <li>Use the HTML <code class="w3-codespan">src</code> attribute to define the URL of the image</li>
+  <li>Use the HTML <code class="w3-codespan">alt</code> attribute to define an alternate text for an image, if it cannot be displayed</li>
+  <li>Use the HTML <code class="w3-codespan">width</code> and <code class="w3-codespan">height</code> attributes to define the size of the image</li>
+  <li>Use the CSS <code class="w3-codespan">width</code> and <code class="w3-codespan">height</code> properties to define the size of the image (alternatively)</li>
+  <li>Use the CSS <code class="w3-codespan">float</code> property to let the image float</li>
+  <li>Use the HTML <code class="w3-codespan">&lt;map&gt;</code> element to define an image-map</li>
+  <li>Use the HTML <code class="w3-codespan">&lt;area&gt;</code> element to define the clickable areas in the image-map</li>
+  <li>Use the HTML <code class="w3-codespan">&lt;img&gt;</code>'s element <code class="w3-codespan">usemap</code> attribute to point to an image-map</li>
+  <li>Use the HTML <code class="w3-codespan">&lt;picture&gt;</code> element to show different images for different devices</li>
+</ul>
+<div class="w3-panel w3-note">
+<p><strong>Note:</strong> Loading images takes time. Large images can slow down your page. Use images carefully.</p>
+</div>
+<hr>
+
+<h2>HTML Image Tags</h2>
+<table class="w3-table-all notranslate">
+<tr>
+<th>Tag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>&lt;img&gt;</td>
+<td>Defines an image</td>
+</tr>
+<tr>
+<td>&lt;map&gt;</td>
+<td>Defines an image-map</td>
+</tr>
+<tr>
+<td>&lt;area&gt;</td>
+<td>Defines a clickable area inside an image-map</td>
+</tr>
+<tr>
+<td>&lt;picture&gt;</td>
+<td>Defines a container for multiple image resources</td>
+</tr>
+</table>
+
+<br>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="links.html">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="tables.html" style="margin:200px">Next &#10095;</a>
+</div>
+
+							</div>
+							<!-- pagination -->
+
+						</div>
+						<!-- /row -->
+					</div>
+					<!-- /main blog -->
+
+					<!-- aside blog -->
+					<div id="aside" class="col-md-3">
+
+						<!-- category widget -->
+						<div class="widget category-widget">
+							<h3>HTML tutorial</h3>
+							<a class="category" href="default.html">HTML HOME</a>
+							<a class="category" href="intro.html">HTML Introduction</a>
+							<a class="category" href="editors.html">HTML Editors</a>
+							<a class="category" href="basic.html">HTML Basic</a>
+							<a class="category" href="elements.html">HTML Elements</a>
+                            <a class="category" href="attributes.html">HTML Attributes</a>
+                            <a class="category" href="headings.html">HTML Headings</a>
+							<a class="category" href="paragraphs.html">HTML Paragraphs</a>
+							<a class="category" href="styles.html">HTML Styles</a>
+							<a class="category" href="formatting.html">HTML Formatting</a>
+							<a class="category" href="quotation_elements.html">HTML Quotations</a>
+                            <a class="category" href="comments.html">HTML Comments</a>
+                            <a class="category" href="colors.html">HTML Colors</a>
+							<a class="category" href="css.html">HTML CSS</a>
+							<a class="category" href="links.html">HTML Links</a>
+							<a class="category" href="images.html">HTML Images</a>
+							<a class="category" href="tables.html">HTML Tables</a>
+                            <a class="category" href="lists.html">HTML Lists</a>
+                            <a class="category" href="blocks.html">HTML Blocks</a>
+							<a class="category" href="classes.html">HTML Classes</a>
+							<a class="category" href="id.html">HTML Id</a>
+							<a class="category" href="iframe.html">HTML Iframes</a>
+							<a class="category" href="scripts.html">HTML JavaScript</a>
+                            <a class="category" href="filepaths.html">HTML File Paths</a>
+                            <a class="category" href="head.html">HTML Head</a>
+							<a class="category" href="layout.html">HTML Layout</a>
+							<a class="category" href="responsive.html">HTML Responsive</a>
+							<a class="category" href="computercode_elements.html">HTML Computercode</a>
+							<a class="category" href="entities.html">HTML Entities</a>
+                            <a class="category" href="symbols.html">HTML Symbols</a>
+                            <a class="category" href="charset.html">HTML Charset</a>
+							<a class="category" href="urlencode.html">HTML URL Encode</a>
+							<a class="category" href="xhtml.html">HTML XHTML</a>
+                            
+                            
+						</div>
+						<!-- /category widget -->
+
+						
+
+					</div>
+					<!-- /aside blog -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- container -->
+
+		</div>
+		<!-- /Blog -->
+
+		<!-- Footer -->
+		<footer id="footer" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- footer logo -->
+					<div class="col-md-6">
+						<div class="footer-logo">
+							<a class="logo" href="index.php">
+								<img src="../../img/logo.png" alt="logo">
+							</a>
+						</div>
+					</div>
+					<!-- footer logo -->
+
+					<!-- footer nav -->
+					<div class="col-md-6">
+						<ul class="footer-nav">
+							<li><a href="../../index.php">Home</a></li>
+							<li><a href="../../courses.php">Courses</a></li>
+							<li><a href="../../contact.php">Contact</a></li>
+						</ul>
+					</div>
+					<!-- /footer nav -->
+
+				</div>
+				<!-- /row -->
+
+				<!-- row -->
+				<div id="bottom-footer" class="row">
+
+					<!-- social -->
+					<div class="col-md-4 col-md-push-8">
+						<ul class="footer-social">
+							<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+					<!-- /social -->
+
+					<!-- copyright -->
+					<div class="col-md-8 col-md-pull-4">
+						<div class="footer-copyright">
+							<span>&copy; Copyright 2018. All Rights Reserved.</span>
+						</div>
+					</div>
+					<!-- /copyright -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- /container -->
+
+		</footer>
+		<!-- /Footer -->
+
+		<!-- preloader -->
+		<div id='preloader'><div class='preloader'></div></div>
+		<!-- /preloader -->
+
+
+		<!-- jQuery Plugins -->
+		<script type="text/javascript" src="../../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../../js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>HTML Education Template</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="../../css/bootstrap.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="../../css/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    </head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a class="logo" href="../../index.php">
+							<img src="../../img/logo.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Mobile toggle -->
+					<button class="navbar-toggle">
+						<span></span>
+					</button>
+					<!-- /Mobile toggle -->
+				</div>
+
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul class="main-menu nav navbar-nav navbar-right">
+						<li><a href="../../index.php">Home</a></li>
+						<li><a href="../../courses.php">Courses</a></li>
+						<li><a href="../../contact.php">Contact</a></li>
+					</ul>
+				</nav>
+				<!-- /Navigation -->
+
+			</div>
+		</header>
+		<!-- /Header -->
+
+		<!-- Hero-area -->
+		<div class="hero-area section">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(../../img/page-background.jpg)"></div>
+			<!-- /Backgound Image -->
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 text-center">
+						<ul class="hero-area-tree">
+							<li><a href="../../index.php">Home</a></li>
+							<li>Courses</li>
+						</ul>
+						<h1 class="white-text">Courses Page</h1>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- /Hero-area -->
+
+		<!-- Blog -->
+		<div id="blog" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- main blog -->
+					<div id="main" class="col-md-9">
+
+
+						<!-- row -->
+						<div class="row">
+
+							<!-- pagination -->
+							<div class="col-md-12">
+                                <h1>HTML <span class="color_h1">The id Attribute</span></h1>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="classes.html">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="iframe.html" style="margin: 200px">Next &#10095;</a>
+</div>
+<hr>
+<h2>Using The id Attribute</h2>
+<p>The <code class="w3-codespan">id</code> attribute specifies a unique id for an HTML element (the value must be unique within the HTML document).</p>
+<p>The id value can be used by CSS and JavaScript to perform certain tasks for a unique element with the specified id value.</p>
+<p>In CSS, to select an element with a specific id, write a hash (#) character, 
+followed by the id of the element:</p>
+
+<div class="w3-example">
+<h3>Example</h3>
+<p>Use CSS to style an element with the id "myHeader":</p>
+<div class="w3-code notranslate htmlHigh">
+  &lt;style&gt;<br>
+  <strong>#myHeader</strong> {<br>&nbsp; &nbsp;&nbsp;background-color: lightblue;<br>&nbsp;&nbsp;&nbsp; 
+  color: black;<br>&nbsp;&nbsp;&nbsp; padding: 
+  40px;<br>&nbsp;&nbsp;&nbsp; text-align: center;<br>} <br>&lt;/style&gt;<br>
+  <br>&lt;h1 id=&quot;myHeader&quot;&gt;My Header&lt;/h1&gt;<br></div>
+  <p>Result:</p>
+  <h1 id="myHeader">My Header</h1>
+</div>
+
+
+<div class="w3-panel w3-note">
+  <p><strong>Tip:</strong> The id attribute can be used on <strong>any</strong> HTML element.</p>
+  <p><strong>Note:</strong> The id value is case-sensitive.</p>
+  <p><strong>Note:</strong> The id value must contain at least <strong>one</strong> 
+  character, and must <strong>not</strong> contain whitespace (spaces, tabs, 
+  etc.).</p>
+</div>
+<hr>
+
+<h2>Difference Between Class and ID</h2>
+<p>An HTML element can only have one unique id that belongs to that single element, while a 
+class name can be used by multiple elements:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+  &lt;style&gt;<br>/* Style the element with the id "myHeader" 
+  */<br>
+  <strong>#myHeader</strong> {<br>&nbsp; &nbsp;&nbsp;background-color: lightblue;<br>&nbsp;&nbsp;&nbsp; 
+  color: black;<br>&nbsp;&nbsp;&nbsp; padding: 
+  40px;<br>&nbsp;&nbsp;&nbsp; text-align: center;<br>}<br><br>/* Style all 
+  elements with the class name "city" */<br><strong>.city
+  </strong>{<br>&nbsp;&nbsp;&nbsp; background-color: tomato;<br>&nbsp;&nbsp;&nbsp; 
+  color: white;<br>&nbsp;&nbsp;&nbsp; padding: 10px;<br>} <br>&lt;/style&gt;<br>
+  <br>&lt;!-- A unique element --&gt;<br>&lt;h1 id=&quot;myHeader&quot;&gt;My 
+  Cities&lt;/h1&gt;<br><br>&lt;!-- Multiple similar elements --&gt;<br>&lt;h2 class=&quot;city&quot;&gt;London&lt;/h2&gt;<br>&lt;p&gt;London is the capital of England.&lt;/p&gt;<br><br>
+  &lt;h2 class=&quot;city&quot;&gt;Paris&lt;/h2&gt;<br>&lt;p&gt;Paris is the capital of France.&lt;/p&gt;<br><br>
+  &lt;h2 class=&quot;city&quot;&gt;Tokyo&lt;/h2&gt;<br>&lt;p&gt;Tokyo is the capital of Japan.&lt;/p&gt;<br></div>
+</div>
+<div class="w3-panel w3-note">
+</div>
+
+<hr>
+
+<div style="overflow:auto;text-align:center">
+<!-- MidContent -->
+
+  <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+  <div id="snhb-mid_content-0"></div>
+    
+</div>
+<hr>
+<h2>Using The id Attribute in JavaScript</h2>
+<p>JavaScript can access an element with a specified id by using the <code class="w3-codespan">getElementById()</code> method:</p>
+
+<div class="w3-example">
+<h3>Example</h3>
+  <p>Use the id attribute to manipulate text with JavaScript:</p>
+<div class="w3-code notranslate htmlHigh">
+  &lt;script&gt;<br>function displayResult() {<br>&nbsp;&nbsp;&nbsp; 
+  document.getElementById(&quot;myHeader&quot;).innerHTML = &quot;Have a nice day!&quot;;<br>}<br>
+  &lt;/script&gt;</div>
+</div>
+<div class="w3-note w3-panel">
+</div>
+<hr>
+
+<h2>Bookmarks with ID and Links</h2>
+<p>HTML bookmarks are used to allow readers to jump to specific parts of a Web 
+page.</p>
+<p>Bookmarks can be useful if your webpage is very long.</p>
+<p>To make a bookmark, you must first create the bookmark, and then add a link 
+to it.</p>
+<p>When the link is clicked, the page will scroll to the location with the 
+bookmark.</p>
+<h2>Example</h2>
+<p>First, create a bookmark with the <code class="w3-codespan">id</code> attribute:</p>
+<div class="w3-example">
+<div class="w3-code notranslate htmlHigh">
+&lt;h2 id=&quot;C4&quot;&gt;Chapter 4&lt;/h2&gt;</div>
+</div>
+<p>Then, add a link to the bookmark (&quot;Jump to Chapter 4&quot;), from within the same page:</p>
+<div class="w3-example">
+<div class="w3-code notranslate htmlHigh">
+ &lt;a href=&quot;#C4&quot;&gt;Jump to Chapter 4&lt;/a&gt;
+</div>
+</div>
+<p>Or, add a link to the bookmark (&quot;Jump to Chapter 4&quot;), from another page:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;a href=&quot;html_demo.html#C4&quot;&gt;Jump to Chapter 4&lt;/a&gt;
+</div>
+</div>
+<hr>
+
+<br>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="classes.html">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="iframe.html" style="margin: 200px">Next &#10095;</a>
+</div>
+
+							</div>
+							<!-- pagination -->
+
+						</div>
+						<!-- /row -->
+					</div>
+					<!-- /main blog -->
+
+					<!-- aside blog -->
+					<div id="aside" class="col-md-3">
+
+						<!-- category widget -->
+						<div class="widget category-widget">
+							<h3>HTML tutorial</h3>
+							<a class="category" href="default.html">HTML HOME</a>
+							<a class="category" href="intro.html">HTML Introduction</a>
+							<a class="category" href="editors.html">HTML Editors</a>
+							<a class="category" href="basic.html">HTML Basic</a>
+							<a class="category" href="elements.html">HTML Elements</a>
+                            <a class="category" href="attributes.html">HTML Attributes</a>
+                            <a class="category" href="headings.html">HTML Headings</a>
+							<a class="category" href="paragraphs.html">HTML Paragraphs</a>
+							<a class="category" href="styles.html">HTML Styles</a>
+							<a class="category" href="formatting.html">HTML Formatting</a>
+							<a class="category" href="quotation_elements.html">HTML Quotations</a>
+                            <a class="category" href="comments.html">HTML Comments</a>
+                            <a class="category" href="colors.html">HTML Colors</a>
+							<a class="category" href="css.html">HTML CSS</a>
+							<a class="category" href="links.html">HTML Links</a>
+							<a class="category" href="images.html">HTML Images</a>
+							<a class="category" href="tables.html">HTML Tables</a>
+                            <a class="category" href="lists.html">HTML Lists</a>
+                            <a class="category" href="blocks.html">HTML Blocks</a>
+							<a class="category" href="classes.html">HTML Classes</a>
+							<a class="category" href="id.html">HTML Id</a>
+							<a class="category" href="iframe.html">HTML Iframes</a>
+							<a class="category" href="scripts.html">HTML JavaScript</a>
+                            <a class="category" href="filepaths.html">HTML File Paths</a>
+                            <a class="category" href="head.html">HTML Head</a>
+							<a class="category" href="layout.html">HTML Layout</a>
+							<a class="category" href="responsive.html">HTML Responsive</a>
+							<a class="category" href="computercode_elements.html">HTML Computercode</a>
+							<a class="category" href="entities.html">HTML Entities</a>
+                            <a class="category" href="symbols.html">HTML Symbols</a>
+                            <a class="category" href="charset.html">HTML Charset</a>
+							<a class="category" href="urlencode.html">HTML URL Encode</a>
+							<a class="category" href="xhtml.html">HTML XHTML</a>
+                            
+                            
+						</div>
+						<!-- /category widget -->
+
+						
+
+					</div>
+					<!-- /aside blog -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- container -->
+
+		</div>
+		<!-- /Blog -->
+
+		<!-- Footer -->
+		<footer id="footer" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- footer logo -->
+					<div class="col-md-6">
+						<div class="footer-logo">
+							<a class="logo" href="index.php">
+								<img src="../../img/logo.png" alt="logo">
+							</a>
+						</div>
+					</div>
+					<!-- footer logo -->
+
+					<!-- footer nav -->
+					<div class="col-md-6">
+						<ul class="footer-nav">
+							<li><a href="../../index.php">Home</a></li>
+							<li><a href="../../courses.php">Courses</a></li>
+							<li><a href="../../contact.php">Contact</a></li>
+						</ul>
+					</div>
+					<!-- /footer nav -->
+
+				</div>
+				<!-- /row -->
+
+				<!-- row -->
+				<div id="bottom-footer" class="row">
+
+					<!-- social -->
+					<div class="col-md-4 col-md-push-8">
+						<ul class="footer-social">
+							<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+					<!-- /social -->
+
+					<!-- copyright -->
+					<div class="col-md-8 col-md-pull-4">
+						<div class="footer-copyright">
+							<span>&copy; Copyright 2018. All Rights Reserved.</span>
+						</div>
+					</div>
+					<!-- /copyright -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- /container -->
+
+		</footer>
+		<!-- /Footer -->
+
+		<!-- preloader -->
+		<div id='preloader'><div class='preloader'></div></div>
+		<!-- /preloader -->
+
+
+		<!-- jQuery Plugins -->
+		<script type="text/javascript" src="../../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../../js/main.js"></script>
+
+	</body>
+</html>

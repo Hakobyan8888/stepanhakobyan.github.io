@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>HTML Education Template</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="../../css/bootstrap.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="../../css/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+        <style>
+            tr,td,th{
+                border: solid;
+                padding: 5px
+            }
+        </style>
+    </head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a class="logo" href="../../index.php">
+							<img src="../../img/logo.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Mobile toggle -->
+					<button class="navbar-toggle">
+						<span></span>
+					</button>
+					<!-- /Mobile toggle -->
+				</div>
+
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul class="main-menu nav navbar-nav navbar-right">
+						<li><a href="../../index.php">Home</a></li>
+						<li><a href="../../courses.php">Courses</a></li>
+						<li><a href="../../contact.php">Contact</a></li>
+					</ul>
+				</nav>
+				<!-- /Navigation -->
+
+			</div>
+		</header>
+		<!-- /Header -->
+
+		<!-- Hero-area -->
+		<div class="hero-area section">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(../../img/page-background.jpg)"></div>
+			<!-- /Backgound Image -->
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 text-center">
+						<ul class="hero-area-tree">
+							<li><a href="../../index.php">Home</a></li>
+							<li>Courses</li>
+						</ul>
+						<h1 class="white-text">Courses Page</h1>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- /Hero-area -->
+
+		<!-- Blog -->
+		<div id="blog" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- main blog -->
+					<div id="main" class="col-md-9">
+
+
+						<!-- row -->
+						<div class="row">
+
+							<!-- pagination -->
+							<div class="col-md-12">
+                                <h1>HTML <span class="color_h1">Attributes</span></h1>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="elements.html">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="headings.html" style="margin:200px ">Next &#10095;</a>
+</div>
+<hr>
+<p class="intro">Attributes provide additional information about HTML elements.</p>
+<hr>
+
+<h2>HTML Attributes</h2>
+<ul>
+  <li>All HTML elements can have <b>attributes</b></li>
+  <li>Attributes provide <b>additional information</b> about an element</li>
+  <li>Attributes are always specified in <b>the start tag</b></li>
+  <li>Attributes usually come in name/value pairs like: <b>name=&quot;value&quot;</b></li>
+</ul>
+<hr>
+<h2>The href Attribute</h2>
+<p>HTML links are defined with the <code class="w3-codespan">&lt;a&gt;</code> tag. The link address is specified in the <code class="w3-codespan">href</code> attribute:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;a href=&quot;https://www.youtube.com&quot;&gt;This is a link&lt;/a&gt;
+</div>
+</div>
+<p>You will learn more about links and the <code class="w3-codespan">&lt;a&gt;</code> tag later in this tutorial.</p>
+<hr>
+<h2>The src Attribute</h2>
+<p>HTML images are defined with the <code class="w3-codespan">&lt;img&gt;</code> tag.</p>
+<p>The filename of the image source is specified in the <code class="w3-codespan">src</code> attribute:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;img src=&quot;img_girl.jpg&quot;&gt;
+</div>
+</div>
+<hr>
+<h2>The width and height Attributes</h2>
+<p>Images in HTML have a set of <strong>size</strong> attributes, which specifies the width and 
+height of the image:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;img src=&quot;img_girl.jpg&quot; width=&quot;500&quot; height=&quot;600&quot;&gt;
+</div>
+</div>
+<p>The image size is specified in pixels: width=&quot;500&quot; means 500 pixels wide.</p>
+<hr>
+
+<h2>The alt Attribute</h2>
+<p>The <code class="w3-codespan">alt</code> attribute specifies an alternative text to be used, when an 
+image cannot be displayed.</p>
+<p>The value of the attribute can be read by screen readers. This way, someone &quot;listening&quot; 
+to the webpage, e.g. a blind person, can &quot;hear&quot; the element.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;img src=&quot;img_girl.jpg&quot; alt=&quot;Girl 
+  with a jacket&quot;&gt;
+</div>
+</div>
+
+<div class="w3-panel w3-note">
+  <p>The <code class="w3-codespan">alt</code> attribute is also useful if the image does not exist:</p>
+</div>
+<div class="w3-example">
+<h3>Example</h3>
+<p>See what happens if we try to display an image that does not exist:</p>
+<div class="w3-code notranslate htmlHigh">
+ &lt;img src=&quot;img_typo.jpg&quot; alt=&quot;Girl 
+  with a jacket&quot;&gt;
+</div>
+
+</div>
+<hr>
+<div style="overflow:auto;text-align:center">
+<!-- MidContent -->
+
+  <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+  <div id="snhb-mid_content-0"></div>
+    
+</div>
+<hr>
+
+<h2>The style Attribute</h2>
+<p>The <code class="w3-codespan">style</code> attribute is used to specify the styling of an element, like color, 
+font, size etc.</p>
+<div class="w3-example">
+<h3>Example</h3>
+  <div class="w3-code notranslate htmlHigh">
+&lt;p style=&quot;color:red&quot;&gt;I am a paragraph&lt;/p&gt;
+  </div>
+</div>
+<div class="w3-note w3-panel">
+</div>
+<hr>
+
+<h2>The lang Attribute</h2>
+<p>The language of the document can be declared in the <code class="w3-codespan">&lt;html&gt;</code> tag.</p>
+<p>The language is declared with the <code class="w3-codespan">lang</code> attribute.</p>
+<p>Declaring a language is important for accessibility applications (screen readers) and search engines:</p>
+<div class="w3-example">
+<div class="w3-code notranslate htmlHigh">
+&lt;!DOCTYPE html&gt;<br>&lt;html lang=&quot;en-US&quot;&gt;<br>&lt;body&gt;<br><br>
+ ...<br><br>&lt;/body&gt;<br>&lt;/html&gt;
+</div>
+</div>
+<p>The first two letters specify the language (en). If there is a dialect, use two more letters (US).</p>
+<hr>
+
+<h2>The title Attribute</h2>
+<p>Here, a <code class="w3-codespan">title</code> attribute is added to the <code class="w3-codespan">&lt;p&gt;</code> 
+element.
+The value of the title attribute will be displayed as a tooltip when 
+you mouse over the paragraph:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;p title="I'm a tooltip"&gt;<br>This is a paragraph.<br>&lt;/p&gt;
+</div>
+</div>
+<hr>
+
+<h2>We Suggest: Use Lowercase Attributes</h2>
+<p>The HTML5 standard does not require lowercase attribute names.</p>
+<p>The title attribute can be written with uppercase or lowercase 
+like <strong>title</strong> or <strong>TITLE</strong>.</p>
+<p>W3C <strong>recommends</strong> lowercase in HTML, and <strong>demands</strong> 
+lowercase for stricter document types like XHTML.</p>
+<div class="w3-panel w3-note">
+  <p>At W3Schools we always use lowercase attribute names.</p>
+</div>
+<hr>
+
+<h2>We Suggest: Quote Attribute Values</h2>
+<p>The HTML5 standard does not require quotes around attribute values.</p>
+<p>The <code class="w3-codespan">href</code> attribute, demonstrated above, <em>can</em> be written without quotes:</p>
+
+<div class="w3-row-padding" style="margin:-8px -16px">
+
+<div class="w3-half">
+
+</div>
+<div class="w3-half">
+
+</div>
+
+</div>
+<p>We <b>recommend</b> quotes in HTML, and <strong>demands</strong> quotes for stricter document types like XHTML.</p>
+<p>Sometimes it is <strong>necessary</strong> to use quotes. This example will not display 
+the title attribute correctly, because it contains a space:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;p
+ title=About Us&gt;</div>
+</div>
+<div class="w3-panel w3-note">
+  <p>Using quotes are the most common. Omitting quotes can produce errors.
+<br>We <strong>always</strong> use quotes around attribute values.</p>
+</div>
+<hr>
+
+<h2>Single or Double Quotes?</h2>
+<p>Double quotes around attribute values are the most common in HTML, but single 
+quotes can also be used.</p>
+<p>In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:</p>
+<div class="w3-example">
+<div class="w3-code notranslate htmlHigh">
+&lt;p title='John &quot;ShotGun&quot; Nelson'&gt;
+</div>
+</div>
+
+<p>Or vice versa:</p>
+
+<div class="w3-example">
+<div class="w3-code notranslate htmlHigh">
+&lt;p title=&quot;John 'ShotGun' Nelson&quot;&gt;</div>
+</div>
+<hr>
+
+<h2>Chapter Summary</h2>
+<ul>
+  <li>All HTML elements can have <strong>attributes</strong></li>
+  <li>The <code class="w3-codespan">title</code> attribute provides additional &quot;tool-tip&quot;  information</li>
+  <li>The <code class="w3-codespan">href</code> attribute provides address information for links</li>
+  <li>The <code class="w3-codespan">width</code> and <code class="w3-codespan">height</code> attributes provide size information for images</li>
+  <li>The <code class="w3-codespan">alt</code> attribute provides text for screen readers</li>
+  <li>At W3Schools we always use <strong>lowercase</strong> attribute names</li>
+  <li>At W3Schools we always <strong>quote</strong> attribute values with double quotes</li>
+</ul>
+<hr>
+
+<hr>
+
+<h2>HTML Attributes</h2>
+<p>Below is an alphabetical list of some attributes often used in HTML:</p>
+<table class="w3-table-all notranslate">
+<tr>
+<th style="width:15%">Attribute</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>alt</td>
+<td>Specifies an alternative text for an image, when the image cannot be 
+displayed</td>
+</tr>
+<tr>
+<td>disabled</td>
+<td>Specifies that an input element should be disabled</td>
+</tr>
+<tr>
+<td>href</td>
+<td>Specifies the URL (web address) for a link</td>
+</tr>
+<tr>
+<td>id</td>
+<td>Specifies a unique id for an element</td>
+</tr>
+<tr>
+<td>src</td>
+<td>Specifies the URL (web address) for an image</td>
+</tr>
+<tr>
+<td>style</td>
+<td>Specifies an inline CSS style for an element</td>
+</tr>
+<tr>
+<td>title</td>
+<td>Specifies extra information about an element (displayed as a tool tip)</td>
+</tr>
+</table>
+<div class="w3-note w3-panel">
+</div>
+
+<br>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="elements.html">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="headings.html" style="margin:200px ">Next &#10095;</a>
+</div>
+
+							</div>
+							<!-- pagination -->
+
+						</div>
+						<!-- /row -->
+					</div>
+					<!-- /main blog -->
+
+					<!-- aside blog -->
+					<div id="aside" class="col-md-3">
+
+						<!-- category widget -->
+						<div class="widget category-widget">
+							<h3>HTML tutorial</h3>
+							<a class="category" href="default.html">HTML HOME</a>
+							<a class="category" href="intro.html">HTML Introduction</a>
+							<a class="category" href="editors.html">HTML Editors</a>
+							<a class="category" href="basic.html">HTML Basic</a>
+							<a class="category" href="elements.html">HTML Elements</a>
+                            <a class="category" href="attributes.html">HTML Attributes</a>
+                            <a class="category" href="headings.html">HTML Headings</a>
+							<a class="category" href="paragraphs.html">HTML Paragraphs</a>
+							<a class="category" href="styles.html">HTML Styles</a>
+							<a class="category" href="formatting.html">HTML Formatting</a>
+							<a class="category" href="quotation_elements.html">HTML Quotations</a>
+                            <a class="category" href="comments.html">HTML Comments</a>
+                            <a class="category" href="colors.html">HTML Colors</a>
+							<a class="category" href="css.html">HTML CSS</a>
+							<a class="category" href="links.html">HTML Links</a>
+							<a class="category" href="images.html">HTML Images</a>
+							<a class="category" href="tables.html">HTML Tables</a>
+                            <a class="category" href="lists.html">HTML Lists</a>
+                            <a class="category" href="blocks.html">HTML Blocks</a>
+							<a class="category" href="classes.html">HTML Classes</a>
+							<a class="category" href="id.html">HTML Id</a>
+							<a class="category" href="iframe.html">HTML Iframes</a>
+							<a class="category" href="scripts.html">HTML JavaScript</a>
+                            <a class="category" href="filepaths.html">HTML File Paths</a>
+                            <a class="category" href="head.html">HTML Head</a>
+							<a class="category" href="layout.html">HTML Layout</a>
+							<a class="category" href="responsive.html">HTML Responsive</a>
+							<a class="category" href="computercode_elements.html">HTML Computercode</a>
+							<a class="category" href="entities.html">HTML Entities</a>
+                            <a class="category" href="symbols.html">HTML Symbols</a>
+                            <a class="category" href="charset.html">HTML Charset</a>
+							<a class="category" href="urlencode.html">HTML URL Encode</a>
+							<a class="category" href="xhtml.html">HTML XHTML</a>
+                            
+                            
+						</div>
+						<!-- /category widget -->
+
+						
+
+					</div>
+					<!-- /aside blog -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- container -->
+
+		</div>
+		<!-- /Blog -->
+
+		<!-- Footer -->
+		<footer id="footer" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- footer logo -->
+					<div class="col-md-6">
+						<div class="footer-logo">
+							<a class="logo" href="index.php">
+								<img src="../../img/logo.png" alt="logo">
+							</a>
+						</div>
+					</div>
+					<!-- footer logo -->
+
+					<!-- footer nav -->
+					<div class="col-md-6">
+						<ul class="footer-nav">
+							<li><a href="../../index.php">Home</a></li>
+							<li><a href="../../courses.php">Courses</a></li>
+							<li><a href="../../contact.php">Contact</a></li>
+						</ul>
+					</div>
+					<!-- /footer nav -->
+
+				</div>
+				<!-- /row -->
+
+				<!-- row -->
+				<div id="bottom-footer" class="row">
+
+					<!-- social -->
+					<div class="col-md-4 col-md-push-8">
+						<ul class="footer-social">
+							<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+					<!-- /social -->
+
+					<!-- copyright -->
+					<div class="col-md-8 col-md-pull-4">
+						<div class="footer-copyright">
+							<span>&copy; Copyright 2018. All Rights Reserved.</span>
+						</div>
+					</div>
+					<!-- /copyright -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- /container -->
+
+		</footer>
+		<!-- /Footer -->
+
+		<!-- preloader -->
+		<div id='preloader'><div class='preloader'></div></div>
+		<!-- /preloader -->
+
+
+		<!-- jQuery Plugins -->
+		<script type="text/javascript" src="../../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../../js/main.js"></script>
+
+	</body>
+</html>

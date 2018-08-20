@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>HTML Education Template</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="../../css/bootstrap.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="../../css/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+        <style>
+            tr,td, th{
+                border: solid;
+                padding: 5px;
+            }
+        </style>
+
+    </head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a class="logo" href="../../index.php">
+							<img src="../../img/logo.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Mobile toggle -->
+					<button class="navbar-toggle">
+						<span></span>
+					</button>
+					<!-- /Mobile toggle -->
+				</div>
+
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul class="main-menu nav navbar-nav navbar-right">
+						<li><a href="../../index.php">Home</a></li>
+						<li><a href="../../courses.php">Courses</a></li>
+						<li><a href="../../contact.php">Contact</a></li>
+					</ul>
+				</nav>
+				<!-- /Navigation -->
+
+			</div>
+		</header>
+		<!-- /Header -->
+
+		<!-- Hero-area -->
+		<div class="hero-area section">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(../../img/page-background.jpg)"></div>
+			<!-- /Backgound Image -->
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 text-center">
+						<ul class="hero-area-tree">
+							<li><a href="../../index.php">Home</a></li>
+							<li>Courses</li>
+						</ul>
+						<h1 class="white-text">Courses Page</h1>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- /Hero-area -->
+
+		<!-- Blog -->
+		<div id="blog" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- main blog -->
+					<div id="main" class="col-md-9">
+
+
+						<!-- row -->
+						<div class="row">
+                            
+
+							<!-- pagination -->
+							<div class="col-md-12">
+                                <h1>HTML <span class="color_h1">Introduction</span></h1>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="default.html">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="editors.html" style="margin:200px ">Next&#10095;</a>
+</div>
+<hr>
+
+<h2>What is HTML?</h2>
+<p>HTML is the standard markup language for creating Web pages.</p>
+<ul>
+<li>HTML stands for Hyper Text Markup Language</li>
+  <li>HTML describes the structure of Web pages using markup</li>
+  <li>HTML elements are the building blocks of HTML pages</li>
+  <li>HTML elements are represented by tags</li>
+  <li>HTML tags label pieces of content such as &quot;heading&quot;, &quot;paragraph&quot;, &quot;table&quot;, and so on</li>
+  <li>Browsers do not display the HTML tags, but use them to render the content of the page</li>
+</ul>
+<hr>
+
+<h2>A Simple HTML Document</h2>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>&lt;head&gt;<br>&lt;title&gt;Page Title&lt;/title&gt;<br>
+ &lt;/head&gt;<br>
+&lt;body&gt;<br><br>&lt;h1&gt;My First Heading&lt;/h1&gt;<br>&lt;p&gt;My first paragraph.&lt;/p&gt;<br><br>
+    &lt;/body&gt;<br>&lt;/html&gt;
+</div>
+</div>
+<h3>Example Explained</h3>
+<ul>
+<li>The <code class="w3-codespan">&lt;!DOCTYPE html&gt;</code> declaration defines this document to be HTML5</li>
+<li>The <code class="w3-codespan">&lt;html&gt;</code> element is the root element of an HTML 
+page</li>
+ <li>The <code class="w3-codespan">&lt;head&gt;</code> element contains meta information about the document</li>
+ <li>The <code class="w3-codespan">&lt;title&gt;</code> element specifies a title for the document</li>
+ <li>The <code class="w3-codespan">&lt;body&gt;</code> element contains the visible page content</li>
+ <li>The <code class="w3-codespan">&lt;h1&gt;</code> element defines a large heading</li>
+ <li>The <code class="w3-codespan">&lt;p&gt;</code> element defines a paragraph</li>
+</ul>
+<hr>
+
+<h2>HTML Tags</h2>
+<p>HTML tags are element names surrounded by angle brackets:</p>
+
+<div class="w3-panel w3-light-grey w3-border">
+<p class="w3-xlarge">&lt;tagname&gt;content goes here...&lt;/tagname&gt;</p>
+</div>
+
+<ul>
+<li>HTML tags normally come <b>in pairs</b> like <code class="w3-codespan">&lt;p&gt;</code> and <code class="w3-codespan">&lt;/p&gt;</code></li>
+<li>The first tag in a pair is the <b> start tag,</b> the second tag is the <b> end tag</b></li>
+<li>The end tag is written like the start tag, but with a <strong>forward slash</strong> 
+inserted before the tag name </li>
+</ul>
+<div class="w3-panel w3-note">
+  <p><strong>Tip:</strong> The start tag is also called the <b>opening tag</b>, and the end tag the <b>closing tag</b>.</p>
+</div>
+<hr>
+<div style="overflow:auto;text-align:center">
+<!-- MidContent -->
+
+  <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+  <div id="snhb-mid_content-0"></div>
+    
+</div>
+<hr>
+<h2>Web Browsers</h2>
+<p>The purpose of a web browser (Chrome, IE, Firefox, Safari) is to read HTML documents and display them.</p>
+<p>The browser does not display the HTML tags, but uses them to determine how to display the document:</p>
+<p><img alt="View in Browser" src="../../img/img_chrome.png" class="w3-image"></p>
+<hr>
+
+<h2>HTML Page Structure</h2>
+<p>Below is a visualization of an HTML page structure:</p>
+<div style="width:99%;border:1px solid grey;padding:3px;margin:0;background-color:#ddd">&lt;html&gt;
+<div style="width:90%;border:1px solid grey;padding:3px;margin:20px">&lt;head&gt;
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;title&gt;Page title&lt;/title&gt;
+</div>
+&lt;/head&gt;
+</div>
+<div style="width:90%;border:1px solid grey;padding:3px;margin:20px;background-color:#ddd">&lt;body&gt;
+<div style="width:90%;border:1px solid grey;padding:3px;margin:20px;background-color:#fff">
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;h1&gt;This is a heading&lt;/h1&gt;</div>
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;p&gt;This is a paragraph.&lt;/p&gt;</div>
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;p&gt;This is another paragraph.&lt;/p&gt;</div>
+</div>
+&lt;/body&gt;
+</div>
+&lt;/html&gt;
+</div>
+<div class="w3-panel w3-note">
+<p><strong>Note:</strong> Only the content inside the &lt;body&gt; section (the white area above) is displayed in a browser.</p>
+</div>
+<hr>
+
+<h2>The &lt;!DOCTYPE&gt; Declaration</h2>
+<p>The <code class="w3-codespan">&lt;!DOCTYPE&gt;</code> declaration represents the document type, and helps browsers to display web pages correctly.</p>
+<p>It must only appear once, at the top of the page (before any HTML tags). </p>
+<p>The <code class="w3-codespan">&lt;!DOCTYPE&gt;</code> declaration is not case sensitive.</p>
+<p>The <code class="w3-codespan">&lt;!DOCTYPE&gt;</code> declaration for HTML5 is:</p>
+<div class="w3-example">
+ <div class="w3-code notranslate htmlHigh">
+&lt;!DOCTYPE html&gt;</div>
+</div>
+<hr>
+
+<h2>HTML Versions</h2>
+<p>Since the early days of the web, there have been many versions of HTML:</p>
+<table class="w3-table-all notranslate">
+  <tr>
+    <th>Version</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td>HTML</td>
+    <td>1991</td>
+  </tr>
+  <tr>
+    <td>HTML 2.0</td>
+    <td>1995</td>
+  </tr>
+  <tr>
+    <td>HTML 3.2</td>
+    <td>1997</td>
+  </tr>
+  <tr>
+    <td>HTML 4.01</td>
+    <td>1999</td>
+  </tr>
+  <tr>
+    <td>XHTML</td>
+    <td>2000</td>
+  </tr>
+  <tr>
+    <td>HTML5</td>
+    <td>2014</td>
+  </tr>
+</table>
+
+<br>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="default.html">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="editors.html" style="margin:200px ">Next&#10095;</a>
+</div>
+
+
+							</div>
+							<!-- pagination -->
+
+						</div>
+						<!-- /row -->
+					</div>
+					<!-- /main blog -->
+
+					<!-- aside blog -->
+					<div id="aside" class="col-md-3">
+
+						<!-- category widget -->
+						<div class="widget category-widget">
+							<h3>HTML tutorial</h3>
+							<a class="category" href="default.html">HTML HOME</a>
+							<a class="category" href="intro.html">HTML Introduction</a>
+							<a class="category" href="editors.html">HTML Editors</a>
+							<a class="category" href="basic.html">HTML Basic</a>
+							<a class="category" href="elements.html">HTML Elements</a>
+                            <a class="category" href="attributes.html">HTML Attributes</a>
+                            <a class="category" href="headings.html">HTML Headings</a>
+							<a class="category" href="paragraphs.html">HTML Paragraphs</a>
+							<a class="category" href="styles.html">HTML Styles</a>
+							<a class="category" href="formatting.html">HTML Formatting</a>
+							<a class="category" href="quotation_elements.html">HTML Quotations</a>
+                            <a class="category" href="comments.html">HTML Comments</a>
+                            <a class="category" href="colors.html">HTML Colors</a>
+							<a class="category" href="css.html">HTML CSS</a>
+							<a class="category" href="links.html">HTML Links</a>
+							<a class="category" href="images.html">HTML Images</a>
+							<a class="category" href="tables.html">HTML Tables</a>
+                            <a class="category" href="lists.html">HTML Lists</a>
+                            <a class="category" href="blocks.html">HTML Blocks</a>
+							<a class="category" href="classes.html">HTML Classes</a>
+							<a class="category" href="id.html">HTML Id</a>
+							<a class="category" href="iframe.html">HTML Iframes</a>
+							<a class="category" href="scripts.html">HTML JavaScript</a>
+                            <a class="category" href="filepaths.html">HTML File Paths</a>
+                            <a class="category" href="head.html">HTML Head</a>
+							<a class="category" href="layout.html">HTML Layout</a>
+							<a class="category" href="responsive.html">HTML Responsive</a>
+							<a class="category" href="computercode_elements.html">HTML Computercode</a>
+							<a class="category" href="entities.html">HTML Entities</a>
+                            <a class="category" href="symbols.html">HTML Symbols</a>
+                            <a class="category" href="charset.html">HTML Charset</a>
+							<a class="category" href="urlencode.html">HTML URL Encode</a>
+							<a class="category" href="xhtml.html">HTML XHTML</a>
+                            
+                            
+						</div>
+						<!-- /category widget -->
+
+						
+
+					</div>
+					<!-- /aside blog -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- container -->
+
+		</div>
+		<!-- /Blog -->
+
+		<!-- Footer -->
+		<footer id="footer" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- footer logo -->
+					<div class="col-md-6">
+						<div class="footer-logo">
+							<a class="logo" href="index.php">
+								<img src="../../img/logo.png" alt="logo">
+							</a>
+						</div>
+					</div>
+					<!-- footer logo -->
+
+					<!-- footer nav -->
+					<div class="col-md-6">
+						<ul class="footer-nav">
+							<li><a href="../../index.php">Home</a></li>
+							<li><a href="../../courses.php">Courses</a></li>
+							<li><a href="../../contact.php">Contact</a></li>
+						</ul>
+					</div>
+					<!-- /footer nav -->
+
+				</div>
+				<!-- /row -->
+
+				<!-- row -->
+				<div id="bottom-footer" class="row">
+
+					<!-- social -->
+					<div class="col-md-4 col-md-push-8">
+						<ul class="footer-social">
+							<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+					<!-- /social -->
+
+					<!-- copyright -->
+					<div class="col-md-8 col-md-pull-4">
+						<div class="footer-copyright">
+							<span>&copy; Copyright 2018. All Rights Reserved.</span>
+						</div>
+					</div>
+					<!-- /copyright -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- /container -->
+
+		</footer>
+		<!-- /Footer -->
+
+		<!-- preloader -->
+		<div id='preloader'><div class='preloader'></div></div>
+		<!-- /preloader -->
+
+
+		<!-- jQuery Plugins -->
+		<script type="text/javascript" src="../../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../../js/main.js"></script>
+
+	</body>
+</html>

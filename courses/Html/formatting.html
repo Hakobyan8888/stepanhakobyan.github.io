@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>HTML Education Template</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="../../css/bootstrap.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="../../css/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+        <style>
+            tr,td,th{
+                border: solid;
+                padding: 5px
+            }
+        </style>
+    </head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a class="logo" href="../../index.php">
+							<img src="../../img/logo.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Mobile toggle -->
+					<button class="navbar-toggle">
+						<span></span>
+					</button>
+					<!-- /Mobile toggle -->
+				</div>
+
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul class="main-menu nav navbar-nav navbar-right">
+						<li><a href="../../index.php">Home</a></li>
+						<li><a href="../../courses.php">Courses</a></li>
+						<li><a href="../../contact.php">Contact</a></li>
+					</ul>
+				</nav>
+				<!-- /Navigation -->
+
+			</div>
+		</header>
+		<!-- /Header -->
+
+		<!-- Hero-area -->
+		<div class="hero-area section">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(../../img/page-background.jpg)"></div>
+			<!-- /Backgound Image -->
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 text-center">
+						<ul class="hero-area-tree">
+							<li><a href="../../index.php">Home</a></li>
+							<li>Courses</li>
+						</ul>
+						<h1 class="white-text">Courses Page</h1>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- /Hero-area -->
+
+		<!-- Blog -->
+		<div id="blog" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- main blog -->
+					<div id="main" class="col-md-9">
+
+
+						<!-- row -->
+						<div class="row">
+
+							<!-- pagination -->
+							<div class="col-md-12">
+                                <h1>HTML <span class="color_h1">Text Formatting</span></h1>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="styles.html">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="quotation_elements.html" style="margin:200px ">Next &#10095;</a>
+</div>
+
+<div class="w3-example">
+<h3>Text Formatting</h3>
+<div class="w3-white w3-padding notranslate">
+<p><b>This text is bold</b></p>
+<p><i>This text is italic</i></p>
+<p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+</div>
+</div>
+<hr>
+
+<h2>HTML Formatting Elements</h2>
+<p>In the previous chapter, you learned about the HTML <strong>style attribute</strong>.</p>
+<p>HTML also defines special <strong>elements</strong> for defining 
+text with a special <strong>meaning</strong>.</p>
+
+<p>HTML uses elements like <code class="w3-codespan">&lt;b&gt;</code> and <code class="w3-codespan">&lt;i&gt;</code> for formatting output,
+like <b>bold</b> or <i>italic</i> text.</p>
+
+<p>Formatting elements were designed to display special types of text:</p>
+<ul>
+ <li><code class="w3-codespan">&lt;b&gt;</code> - Bold text</li>
+ <li><code class="w3-codespan">&lt;strong&gt;</code> - Important text</li>
+ <li><code class="w3-codespan">&lt;i&gt;</code> - Italic text</li>
+ <li><code class="w3-codespan">&lt;em&gt;</code> - Emphasized text</li>
+ <li><code class="w3-codespan">&lt;mark&gt;</code> - Marked text</li>
+ <li><code class="w3-codespan">&lt;small&gt;</code> - Small text</li>
+ <li><code class="w3-codespan">&lt;del&gt;</code> - Deleted text</li>
+ <li><code class="w3-codespan">&lt;ins&gt;</code> - Inserted text</li>
+ <li><code class="w3-codespan">&lt;sub&gt;</code> - Subscript text</li>
+ <li><code class="w3-codespan">&lt;sup&gt;</code> - Superscript text</li>
+</ul>
+<hr>
+
+<h2>HTML &lt;b&gt; and &lt;strong&gt; Elements</h2>
+<p>The HTML <code class="w3-codespan">&lt;b&gt;</code> element defines <strong>bold</strong> text, 
+without any extra importance.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+    &lt;b&gt;This text is bold&lt;/b&gt;</div>
+</div>
+<p>The HTML <code class="w3-codespan">&lt;strong&gt;</code> element defines <strong>strong</strong> 
+text, with added semantic &quot;strong&quot; importance.</p>
+<div class="w3-example">
+<h3>Example</h3>
+ <div class="w3-code notranslate htmlHigh">
+     &lt;strong&gt;This text is strong&lt;/strong&gt;</div>
+</div>
+<hr>
+<div style="overflow:auto;text-align:center">
+<!-- MidContent -->
+
+  <div id='div-gpt-ad-1493883843099-0' style="display: inline-block">
+    <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1493883843099-0'); });
+    </script>
+  </div>
+    
+</div>
+<hr>
+<h2>HTML &lt;i&gt; and &lt;em&gt; Elements</h2>
+<p>The HTML <code class="w3-codespan">&lt;i&gt;</code> element defines <em>italic</em> text, without any extra importance.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+    &lt;i&gt;This text is italic&lt;/i&gt;</div>
+</div>
+<p>The HTML <code class="w3-codespan">&lt;em&gt;</code> element defines <em>emphasized</em> 
+text, with added semantic importance.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+    &lt;em&gt;This text is 
+ emphasized&lt;/em&gt;</div>
+</div>
+
+<div class="w3-panel w3-note">
+  <p><strong>Note:</strong> Browsers display <code class="w3-codespan">&lt;strong&gt;</code> as <code class="w3-codespan">&lt;b&gt;</code>, and <code class="w3-codespan">&lt;em&gt;</code> as <code class="w3-codespan">&lt;i&gt;</code>.
+However, there is a difference in the meaning of these tags:
+<code class="w3-codespan">&lt;b&gt;</code> and <code class="w3-codespan">&lt;i&gt;</code> defines bold and italic text, but
+<code class="w3-codespan">&lt;strong&gt;</code> and <code class="w3-codespan">&lt;em&gt;</code> means that the text is &quot;important&quot;.</p>
+</div>
+<hr>
+
+<h2>HTML &lt;small&gt; Element</h2>
+<p>The HTML <code class="w3-codespan">&lt;small&gt;</code> element defines <small>smaller</small> text:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;h2&gt;HTML 
+&lt;small&gt;Small&lt;/small&gt; Formatting&lt;/h2&gt;<br>
+</div>
+</div>
+<hr>
+
+<h2>HTML &lt;mark&gt; Element</h2>
+<p>The HTML <code class="w3-codespan">&lt;mark&gt;</code> element defines <mark>marked</mark> or <mark>highlighted</mark> text:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;h2&gt;HTML 
+&lt;mark&gt;Marked&lt;/mark&gt; Formatting&lt;/h2&gt;<br>
+</div>
+</div>
+<hr>
+
+<h2>HTML &lt;del&gt; Element</h2>
+<p>The HTML <code class="w3-codespan">&lt;del&gt;</code> element defines <del>deleted</del> (removed) text.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;p&gt;My favorite color is &lt;del&gt;blue&lt;/del&gt; red.&lt;/p&gt;<br>
+</div>
+</div>
+
+<hr>
+<h2>HTML &lt;ins&gt; Element</h2>
+<p>The HTML <code class="w3-codespan">&lt;ins&gt;</code> element defines <ins>inserted</ins> 
+(added) text.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;p&gt;My favorite 
+ &lt;ins&gt;color&lt;/ins&gt; is red.&lt;/p&gt;<br>
+</div>
+</div>
+
+<hr>
+<h2>HTML &lt;sub&gt; Element</h2>
+<p>The HTML <code class="w3-codespan">&lt;sub&gt;</code> element defines <sub>subscripted</sub> text.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;p&gt;This 
+ is &lt;sub&gt;subscripted&lt;/sub&gt; text.&lt;/p&gt;<br>
+</div>
+</div>
+
+<hr>
+<h2>HTML &lt;sup&gt; Element</h2>
+<p>The HTML <code class="w3-codespan">&lt;sup&gt;</code> element defines <sup>superscripted</sup> text.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;p&gt;This 
+ is &lt;sup&gt;superscripted&lt;/sup&gt; text.&lt;/p&gt;<br>
+</div>
+</div>
+
+<hr>
+
+<h2>HTML Text Formatting Elements</h2>
+<table class="w3-table-all notranslate">
+<tr>
+<th style="width:20%">Tag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>&lt;b&gt;</td>
+<td>Defines bold text</td>
+</tr>
+<tr>
+<td>&lt;em&gt;</td>
+<td>Defines emphasized text&nbsp;</td>
+</tr>
+<tr>
+<td>&lt;i&gt;</td>
+<td>Defines italic text</td>
+</tr>
+<tr>
+<td>&lt;small&gt;</td>
+<td>Defines smaller text</td>
+</tr>
+<tr>
+<td>&lt;strong&gt;</td>
+<td>Defines important text</td>
+</tr>
+<tr>
+<td>&lt;sub&gt;</td>
+<td>Defines subscripted text</td>
+</tr>
+<tr>
+<td>&lt;sup&gt;</td>
+<td>Defines superscripted text</td>
+</tr>
+<tr>
+<td>&lt;ins&gt;</td>
+<td>Defines inserted text</td>
+</tr>
+<tr>
+<td>&lt;del&gt;</td>
+<td>Defines deleted text</td>
+</tr>
+<tr>
+<td>&lt;mark&gt;</td>
+<td>Defines marked/highlighted text</td>
+</tr>
+</table>
+
+<br>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="styles.html">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="quotation_elements.html" style="margin:200px ">Next &#10095;</a>
+</div>
+
+							</div>
+							<!-- pagination -->
+
+						</div>
+						<!-- /row -->
+					</div>
+					<!-- /main blog -->
+
+					<!-- aside blog -->
+					<div id="aside" class="col-md-3">
+
+						<!-- category widget -->
+						<div class="widget category-widget">
+							<h3>HTML tutorial</h3>
+							<a class="category" href="default.html">HTML HOME</a>
+							<a class="category" href="intro.html">HTML Introduction</a>
+							<a class="category" href="editors.html">HTML Editors</a>
+							<a class="category" href="basic.html">HTML Basic</a>
+							<a class="category" href="elements.html">HTML Elements</a>
+                            <a class="category" href="attributes.html">HTML Attributes</a>
+                            <a class="category" href="headings.html">HTML Headings</a>
+							<a class="category" href="paragraphs.html">HTML Paragraphs</a>
+							<a class="category" href="styles.html">HTML Styles</a>
+							<a class="category" href="formatting.html">HTML Formatting</a>
+							<a class="category" href="quotation_elements.html">HTML Quotations</a>
+                            <a class="category" href="comments.html">HTML Comments</a>
+                            <a class="category" href="colors.html">HTML Colors</a>
+							<a class="category" href="css.html">HTML CSS</a>
+							<a class="category" href="links.html">HTML Links</a>
+							<a class="category" href="images.html">HTML Images</a>
+							<a class="category" href="tables.html">HTML Tables</a>
+                            <a class="category" href="lists.html">HTML Lists</a>
+                            <a class="category" href="blocks.html">HTML Blocks</a>
+							<a class="category" href="classes.html">HTML Classes</a>
+							<a class="category" href="id.html">HTML Id</a>
+							<a class="category" href="iframe.html">HTML Iframes</a>
+							<a class="category" href="scripts.html">HTML JavaScript</a>
+                            <a class="category" href="filepaths.html">HTML File Paths</a>
+                            <a class="category" href="head.html">HTML Head</a>
+							<a class="category" href="layout.html">HTML Layout</a>
+							<a class="category" href="responsive.html">HTML Responsive</a>
+							<a class="category" href="computercode_elements.html">HTML Computercode</a>
+							<a class="category" href="entities.html">HTML Entities</a>
+                            <a class="category" href="symbols.html">HTML Symbols</a>
+                            <a class="category" href="charset.html">HTML Charset</a>
+							<a class="category" href="urlencode.html">HTML URL Encode</a>
+							<a class="category" href="xhtml.html">HTML XHTML</a>
+                            
+                            
+						</div>
+						<!-- /category widget -->
+
+						
+
+					</div>
+					<!-- /aside blog -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- container -->
+
+		</div>
+		<!-- /Blog -->
+
+		<!-- Footer -->
+		<footer id="footer" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- footer logo -->
+					<div class="col-md-6">
+						<div class="footer-logo">
+							<a class="logo" href="index.php">
+								<img src="../../img/logo.png" alt="logo">
+							</a>
+						</div>
+					</div>
+					<!-- footer logo -->
+
+					<!-- footer nav -->
+					<div class="col-md-6">
+						<ul class="footer-nav">
+							<li><a href="../../index.php">Home</a></li>
+							<li><a href="../../courses.php">Courses</a></li>
+							<li><a href="../../contact.php">Contact</a></li>
+						</ul>
+					</div>
+					<!-- /footer nav -->
+
+				</div>
+				<!-- /row -->
+
+				<!-- row -->
+				<div id="bottom-footer" class="row">
+
+					<!-- social -->
+					<div class="col-md-4 col-md-push-8">
+						<ul class="footer-social">
+							<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+					<!-- /social -->
+
+					<!-- copyright -->
+					<div class="col-md-8 col-md-pull-4">
+						<div class="footer-copyright">
+							<span>&copy; Copyright 2018. All Rights Reserved.</span>
+						</div>
+					</div>
+					<!-- /copyright -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- /container -->
+
+		</footer>
+		<!-- /Footer -->
+
+		<!-- preloader -->
+		<div id='preloader'><div class='preloader'></div></div>
+		<!-- /preloader -->
+
+
+		<!-- jQuery Plugins -->
+		<script type="text/javascript" src="../../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../../js/main.js"></script>
+
+	</body>
+</html>

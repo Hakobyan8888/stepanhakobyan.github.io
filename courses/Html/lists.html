@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>HTML Education Template</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="../../css/bootstrap.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="../../css/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+        <style>
+            tr,td,th{
+                border: solid;
+                padding: 5px
+            }
+        </style>
+    </head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a class="logo" href="../../index.php">
+							<img src="../../img/logo.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Mobile toggle -->
+					<button class="navbar-toggle">
+						<span></span>
+					</button>
+					<!-- /Mobile toggle -->
+				</div>
+
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul class="main-menu nav navbar-nav navbar-right">
+						<li><a href="../../index.php">Home</a></li>
+						<li><a href="../../courses.php">Courses</a></li>
+						<li><a href="../../contact.php">Contact</a></li>
+					</ul>
+				</nav>
+				<!-- /Navigation -->
+
+			</div>
+		</header>
+		<!-- /Header -->
+
+		<!-- Hero-area -->
+		<div class="hero-area section">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(../../img/page-background.jpg)"></div>
+			<!-- /Backgound Image -->
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 text-center">
+						<ul class="hero-area-tree">
+							<li><a href="../../index.php">Home</a></li>
+							<li>Courses</li>
+						</ul>
+						<h1 class="white-text">Courses Page</h1>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- /Hero-area -->
+
+		<!-- Blog -->
+		<div id="blog" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- main blog -->
+					<div id="main" class="col-md-9">
+
+
+						<!-- row -->
+						<div class="row">
+
+							<!-- pagination -->
+							<div class="col-md-12">
+                                <h1>HTML <span class="color_h1">Lists</span></h1>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="tables.html">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="blocks.html" style="margin:200px">Next &#10095;</a>
+</div>
+<div class="w3-example">
+<h3>&nbsp;HTML List Example</h3>
+<div class="w3-padding w3-white">
+<div class="w3-row">
+<div class="w3col w3-half">
+<h3>An Unordered List:</h3>
+<ul>
+  <li>Item</li>
+  <li>Item</li>
+  <li>Item</li>
+  <li>Item</li>    
+</ul>
+</div>
+<div class="w3col w3-half">
+<h3>An Ordered List:</h3>
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item</li>  
+</ol>
+</div>
+</div>
+</div>
+</div>
+<hr>
+
+<h2>Unordered HTML List</h2>
+<p>An unordered list starts with the <code class="w3-codespan">&lt;ul&gt;</code> tag. Each list item starts with the 
+<code class="w3-codespan">&lt;li&gt;</code> tag.</p>
+<p>The list items will be marked with bullets (small black circles) by default:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;ul&gt;<br>
+&nbsp;
+&lt;li&gt;Coffee&lt;/li&gt;<br>&nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>
+&nbsp;
+&lt;li&gt;Milk&lt;/li&gt;<br>
+&lt;/ul&gt;
+</div>
+</div>
+<hr>
+
+<h2>Unordered HTML List - Choose List Item Marker</h2>
+<p>The CSS <code class="w3-codespan">list-style-type</code> property is used to define the style of the 
+list item marker:</p>
+<table class="w3-table-all notranslate">
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>disc</td>
+<td>Sets the list item marker to a bullet (default)</td>
+</tr>
+<tr>
+<td>circle</td>
+<td>Sets the list item marker to a circle</td>
+</tr>
+<tr>
+<td>square</td>
+<td>Sets the list item marker to a square</td>
+</tr>
+<tr>
+<td>none</td>
+<td>The list items will not be marked</td>
+</tr>
+</table>
+<div class="w3-example">
+<h3>Example - Disc</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;ul style=&quot;list-style-type:disc&quot;&gt;<br>&nbsp; &lt;li&gt;Coffee&lt;/li&gt;<br>
+&nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>&nbsp; &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ul&gt;
+</div>
+</div>
+
+<div class="w3-example">
+<h3>Example - Circle</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;ul style=&quot;list-style-type:circle&quot;&gt;<br>&nbsp; &lt;li&gt;Coffee&lt;/li&gt;<br>
+&nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>&nbsp; &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ul&gt;
+</div>
+</div>
+
+<div class="w3-example">
+<h3>Example - Square</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;ul style=&quot;list-style-type:square&quot;&gt;<br>&nbsp; &lt;li&gt;Coffee&lt;/li&gt;<br>
+&nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>&nbsp; &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ul&gt;
+</div>
+</div>
+
+<div class="w3-example">
+<h3>Example - None</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;ul style=&quot;list-style-type:none&quot;&gt;<br>&nbsp; &lt;li&gt;Coffee&lt;/li&gt;<br>
+&nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>&nbsp; &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ul&gt;
+</div>
+</div>
+<hr>
+<div style="overflow:auto;text-align:center">
+<!-- MidContent -->
+
+  <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+  <div id="snhb-mid_content-0"></div>
+    
+</div>
+<hr>
+<h2>Ordered HTML List</h2>
+<p>An ordered list starts with the <code class="w3-codespan">&lt;ol&gt;</code> tag. Each list item starts with the <code class="w3-codespan">&lt;li&gt;</code> tag.</p>
+<p>The list items will be marked with numbers by default:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;ol&gt;<br>
+&nbsp;
+&lt;li&gt;Coffee&lt;/li&gt;<br>&nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>
+&nbsp;
+&lt;li&gt;Milk&lt;/li&gt;<br>
+&lt;/ol&gt;
+</div>
+</div>
+<hr>
+
+<h2>Ordered HTML List - The Type Attribute</h2>
+<p>The <code class="w3-codespan">type</code> attribute of the <code class="w3-codespan">&lt;ol&gt;</code> tag, defines the type of the 
+list item marker:</p>
+<table class="w3-table-all notranslate">
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>type=&quot;1&quot;</td>
+<td>The list items will be numbered with numbers (default)</td>
+</tr>
+<tr>
+<td>type=&quot;A&quot;</td>
+<td>The list items will be numbered with uppercase letters</td>
+</tr>
+<tr>
+<td>type=&quot;a&quot;</td>
+<td>The list items will be numbered with lowercase letters</td>
+</tr>
+<tr>
+<td>type=&quot;I&quot;</td>
+<td>The list items will be numbered with uppercase roman numbers</td>
+</tr>
+<tr>
+<td>type=&quot;i&quot;</td>
+<td>The list items will be numbered with lowercase roman numbers</td>
+</tr>
+</table>
+
+<div class="w3-example">
+<h3>Numbers:</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;ol type=&quot;1&quot;&gt;<br>&nbsp; &lt;li&gt;Coffee&lt;/li&gt;<br>
+&nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>&nbsp; &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ol&gt;
+</div>
+</div>
+<div class="w3-example">
+<h3>Uppercase Letters:</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;ol type=&quot;A&quot;&gt;<br>&nbsp; &lt;li&gt;Coffee&lt;/li&gt;<br>
+&nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>&nbsp; &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ol&gt;
+</div>
+</div>
+<div class="w3-example">
+<h3>Lowercase Letters:</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;ol type=&quot;a&quot;&gt;<br>&nbsp; &lt;li&gt;Coffee&lt;/li&gt;<br>
+&nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>&nbsp; &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ol&gt;
+</div>
+</div>
+<div class="w3-example">
+<h3>Uppercase Roman Numbers:</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;ol type=&quot;I&quot;&gt;<br>&nbsp; &lt;li&gt;Coffee&lt;/li&gt;<br>
+&nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>&nbsp; &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ol&gt;
+</div>
+</div>
+<div class="w3-example">
+<h3>Lowercase Roman Numbers:</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;ol type=&quot;i&quot;&gt;<br>&nbsp; &lt;li&gt;Coffee&lt;/li&gt;<br>
+&nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>&nbsp; &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ol&gt;
+</div>
+</div>
+<hr>
+
+<h2>HTML Description Lists</h2>
+<p>HTML also supports description lists.</p>
+<p>A description list is a list of terms, with a description of each term.</p>
+<p>The <code class="w3-codespan">&lt;dl&gt;</code> tag defines the description list, the <code class="w3-codespan">&lt;dt&gt;</code> tag defines the term (name), and the <code class="w3-codespan">&lt;dd&gt;</code> 
+tag describes each term:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;dl&gt;<br>
+&nbsp;
+&lt;dt&gt;Coffee&lt;/dt&gt;<br>
+&nbsp;
+&lt;dd&gt;- black hot drink&lt;/dd&gt;<br>
+&nbsp;
+&lt;dt&gt;Milk&lt;/dt&gt;<br>
+&nbsp;
+&lt;dd&gt;- white cold drink&lt;/dd&gt;<br>
+&lt;/dl&gt;
+</div>
+</div>
+<hr>
+
+<h2>Nested HTML Lists</h2>
+<p>List can be nested (lists inside lists):</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;ul&gt;<br>&nbsp; &lt;li&gt;Coffee&lt;/li&gt;<br>&nbsp; &lt;li&gt;Tea<br>
+&nbsp; &nbsp; &lt;ul&gt;<br>&nbsp;&nbsp;&nbsp; &nbsp; 
+&lt;li&gt;Black tea&lt;/li&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Green tea&lt;/li&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/ul&gt;<br>&nbsp; 
+&lt;/li&gt;<br>&nbsp; &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ul&gt;
+</div>
+<a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryhtml_lists_nested" target="_blank">Try it Yourself &raquo;</a>
+</div>
+
+<div class="w3-panel w3-note">
+  <p><strong>Note:</strong> List items can contain new list, and other HTML elements, like images and links, etc.</p>
+</div>
+<hr>
+
+<h2>Control List Counting</h2>
+<p>By default, an ordered list will start counting from 1. If you want to start counting from a specified number, you can use the <code class="w3-codespan">start</code> attribute:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+  &lt;ol start=&quot;50&quot;&gt;<br>&nbsp; &lt;li&gt;Coffee&lt;/li&gt;<br>&nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>&nbsp; 
+  &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ol&gt;</div>
+</div>
+<hr>
+
+<h2>Horizontal List with CSS</h2>
+<p>HTML lists can be styled in many different ways with CSS.</p>
+<p>One popular way is to style a list horizontally, to create a navigation menu:</p>
+
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&lt;head&gt;<br>&lt;style&gt;<br>ul {<br>&nbsp;&nbsp;&nbsp; list-style-type: none;<br>&nbsp;&nbsp;&nbsp; margin: 0;<br>&nbsp;&nbsp;&nbsp; padding: 0;<br>&nbsp;&nbsp;&nbsp; overflow: hidden;<br>&nbsp;&nbsp;&nbsp; background-color: #333333;<br>}<br><br>li {<br>&nbsp;&nbsp;&nbsp; float: left;<br>}<br><br>li a {<br>&nbsp;&nbsp;&nbsp; display: block;<br>&nbsp;&nbsp;&nbsp; color: white;<br>&nbsp;&nbsp;&nbsp; text-align: center;<br>&nbsp;&nbsp;&nbsp; padding: 16px;<br>&nbsp;&nbsp;&nbsp; text-decoration: none;<br>}<br>
+ <br>li a:hover {<br>&nbsp;&nbsp;&nbsp; background-color: #111111;<br>}<br>
+ &lt;/style&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br><br>&lt;ul&gt;<br>&nbsp; &lt;li&gt;&lt;a href=&quot;#home&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;<br>&nbsp; &lt;li&gt;&lt;a href=&quot;#news&quot;&gt;News&lt;/a&gt;&lt;/li&gt;<br>&nbsp; &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;<br>&nbsp; &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;<br>
+ &lt;/ul&gt;<br><br>&lt;/body&gt;<br>&lt;/html&gt;
+</div>
+</div>
+<div class="w3-panel w3-note">
+</div>
+
+<hr>
+
+<h2>Chapter Summary</h2>
+<ul>
+  <li>Use the HTML <code class="w3-codespan">&lt;ul&gt;</code> element to define an unordered list</li>
+  <li>Use the CSS <code class="w3-codespan">list-style-type</code> property to define the list item marker</li>
+  <li>Use the HTML <code class="w3-codespan">&lt;ol&gt;</code> element to define an ordered list</li>
+  <li>Use the HTML <code class="w3-codespan">type</code> attribute to define the numbering type</li>
+  <li>Use the HTML <code class="w3-codespan">&lt;li&gt;</code> element to define a list item</li>
+  <li>Use the HTML <code class="w3-codespan">&lt;dl&gt;</code> element to define a description list</li>
+  <li>Use the HTML <code class="w3-codespan">&lt;dt&gt;</code> element to define the description term</li>
+  <li>Use the HTML <code class="w3-codespan">&lt;dd&gt;</code> element to describe the term in a description list </li>
+  <li>Lists can be nested inside lists</li>
+  <li>List items can contain other HTML elements </li>
+  <li>Use the CSS property <code class="w3-codespan">float:left</code> or <code class="w3-codespan">display:inline</code> to display a list horizontally</li>
+</ul>
+
+<hr>
+
+<h2>HTML List Tags</h2>
+<table class="w3-table-all notranslate">
+<tr>
+<th>Tag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>&lt;ul&gt;</td>
+<td>Defines an unordered list</td>
+</tr>
+<tr>
+<td>&lt;ol&gt;</td>
+<td>Defines an ordered list</td>
+</tr>
+<tr>
+<td>&lt;li&gt;</td>
+<td>Defines a list item</td>
+</tr>
+<tr>
+<td>&lt;dl&gt;</td>
+<td>Defines a description list</td>
+</tr>
+<tr>
+<td>&lt;dt&gt;</td>
+<td>Defines a term in a description list</td>
+</tr>
+<tr>
+<td>&lt;dd&gt;</td>
+<td>Describes the term in a description list</td>
+</tr>
+</table>
+
+<br>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="tables.html">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="blocks.html" style="margin: 200px">Next &#10095;</a>
+</div>
+
+							</div>
+							<!-- pagination -->
+
+						</div>
+						<!-- /row -->
+					</div>
+					<!-- /main blog -->
+
+					<!-- aside blog -->
+					<div id="aside" class="col-md-3">
+
+						<!-- category widget -->
+						<div class="widget category-widget">
+							<h3>HTML tutorial</h3>
+							<a class="category" href="default.html">HTML HOME</a>
+							<a class="category" href="intro.html">HTML Introduction</a>
+							<a class="category" href="editors.html">HTML Editors</a>
+							<a class="category" href="basic.html">HTML Basic</a>
+							<a class="category" href="elements.html">HTML Elements</a>
+                            <a class="category" href="attributes.html">HTML Attributes</a>
+                            <a class="category" href="headings.html">HTML Headings</a>
+							<a class="category" href="paragraphs.html">HTML Paragraphs</a>
+							<a class="category" href="styles.html">HTML Styles</a>
+							<a class="category" href="formatting.html">HTML Formatting</a>
+							<a class="category" href="quotation_elements.html">HTML Quotations</a>
+                            <a class="category" href="comments.html">HTML Comments</a>
+                            <a class="category" href="colors.html">HTML Colors</a>
+							<a class="category" href="css.html">HTML CSS</a>
+							<a class="category" href="links.html">HTML Links</a>
+							<a class="category" href="images.html">HTML Images</a>
+							<a class="category" href="tables.html">HTML Tables</a>
+                            <a class="category" href="lists.html">HTML Lists</a>
+                            <a class="category" href="blocks.html">HTML Blocks</a>
+							<a class="category" href="classes.html">HTML Classes</a>
+							<a class="category" href="id.html">HTML Id</a>
+							<a class="category" href="iframe.html">HTML Iframes</a>
+							<a class="category" href="scripts.html">HTML JavaScript</a>
+                            <a class="category" href="filepaths.html">HTML File Paths</a>
+                            <a class="category" href="head.html">HTML Head</a>
+							<a class="category" href="layout.html">HTML Layout</a>
+							<a class="category" href="responsive.html">HTML Responsive</a>
+							<a class="category" href="computercode_elements.html">HTML Computercode</a>
+							<a class="category" href="entities.html">HTML Entities</a>
+                            <a class="category" href="symbols.html">HTML Symbols</a>
+                            <a class="category" href="charset.html">HTML Charset</a>
+							<a class="category" href="urlencode.html">HTML URL Encode</a>
+							<a class="category" href="xhtml.html">HTML XHTML</a>
+                            
+                            
+						</div>
+						<!-- /category widget -->
+
+						
+
+					</div>
+					<!-- /aside blog -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- container -->
+
+		</div>
+		<!-- /Blog -->
+
+		<!-- Footer -->
+		<footer id="footer" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- footer logo -->
+					<div class="col-md-6">
+						<div class="footer-logo">
+							<a class="logo" href="index.php">
+								<img src="../../img/logo.png" alt="logo">
+							</a>
+						</div>
+					</div>
+					<!-- footer logo -->
+
+					<!-- footer nav -->
+					<div class="col-md-6">
+						<ul class="footer-nav">
+							<li><a href="../../index.php">Home</a></li>
+							<li><a href="../../courses.php">Courses</a></li>
+							<li><a href="../../contact.php">Contact</a></li>
+						</ul>
+					</div>
+					<!-- /footer nav -->
+
+				</div>
+				<!-- /row -->
+
+				<!-- row -->
+				<div id="bottom-footer" class="row">
+
+					<!-- social -->
+					<div class="col-md-4 col-md-push-8">
+						<ul class="footer-social">
+							<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+					<!-- /social -->
+
+					<!-- copyright -->
+					<div class="col-md-8 col-md-pull-4">
+						<div class="footer-copyright">
+							<span>&copy; Copyright 2018. All Rights Reserved.</span>
+						</div>
+					</div>
+					<!-- /copyright -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- /container -->
+
+		</footer>
+		<!-- /Footer -->
+
+		<!-- preloader -->
+		<div id='preloader'><div class='preloader'></div></div>
+		<!-- /preloader -->
+
+
+		<!-- jQuery Plugins -->
+		<script type="text/javascript" src="../../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../../js/main.js"></script>
+
+	</body>
+</html>
